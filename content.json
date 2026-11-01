@@ -1,0 +1,745 @@
+{
+  "meta": {
+    "title": "French A0 → A2/B1 in a Year",
+    "totalUnits": 26,
+    "weeksPerUnit": 2,
+    "daysPerUnit": 14,
+    "description": "A self-paced, 364-day plan moving from zero French to solid A2 / early B1. Work through units in order, roughly one day of tasks at a time — it is fine to skip a day or repeat one; what matters is finishing each day's tasks before moving on."
+  },
+  "resourceTiers": {
+    "A0A1": {
+      "listening": [
+        {"title": "TV5Monde — Apprendre le français (beginner videos)", "url": "https://apprendre.tv5monde.com/"},
+        {"title": "Bonjour de France — audio exercises (débutant)", "url": "https://www.bonjourdefrance.com/"}
+      ],
+      "reading": [
+        {"title": "Bonjour de France — beginner reading exercises", "url": "https://www.bonjourdefrance.com/"},
+        {"title": "Le Point du FLE — exercise directory", "url": "https://www.lepointdufle.net/"}
+      ]
+    },
+    "A1A2": {
+      "listening": [
+        {"title": "RFI Savoirs — Journal en français facile (slow news)", "url": "https://francaisfacile.rfi.fr/"},
+        {"title": "Learn French with Alexa (YouTube)", "url": "https://www.youtube.com/user/frenchwithalexa"}
+      ],
+      "reading": [
+        {"title": "RFI Savoirs — Journal en français facile (texts)", "url": "https://francaisfacile.rfi.fr/"},
+        {"title": "Lawless French — graded reading practice", "url": "https://www.lawlessfrench.com/"}
+      ]
+    },
+    "A2B1": {
+      "listening": [
+        {"title": "InnerFrench podcast (slow, intermediate French)", "url": "https://innerfrench.com/"},
+        {"title": "Easy French (YouTube street interviews, subtitled)", "url": "https://www.youtube.com/@EasyFrench"}
+      ],
+      "reading": [
+        {"title": "Lawless French — intermediate grammar & reading", "url": "https://www.lawlessfrench.com/"},
+        {"title": "RFI Savoirs — standard news (skim for gist)", "url": "https://www.rfi.fr/fr/"}
+      ]
+    },
+    "examPrep": {
+      "listening": [
+        {"title": "TV5Monde — DELF/DALF exam preparation", "url": "https://apprendre.tv5monde.com/"},
+        {"title": "France Éducation international — official DELF/DALF sample papers", "url": "https://www.france-education-international.fr/"}
+      ],
+      "reading": [
+        {"title": "France Éducation international — DELF A2/B1 sample papers", "url": "https://www.france-education-international.fr/"},
+        {"title": "RFI Savoirs — exam-style comprehension texts", "url": "https://francaisfacile.rfi.fr/"}
+      ]
+    }
+  },
+  "alwaysOnResources": {
+    "grammarReference": [
+      {"title": "Lawless French — full grammar reference", "url": "https://www.lawlessfrench.com/"},
+      {"title": "Kwiziq French — grammar explanations & quizzes (free tier)", "url": "https://kwiziq.com/"},
+      {"title": "Tex's French Grammar — University of Texas (free course)", "url": "https://coerll.utexas.edu/gg/"}
+    ],
+    "pronunciation": [
+      {"title": "Forvo — hear native speakers pronounce any French word", "url": "https://forvo.com/languages/fr/"},
+      {"title": "TV5Monde — French phonetics lessons", "url": "https://apprendre.tv5monde.com/"}
+    ],
+    "speakingPractice": [
+      {"title": "Tandem — free language exchange with native speakers", "url": "https://www.tandem.net/"},
+      {"title": "italki — community Q&A and tutors (free + paid)", "url": "https://www.italki.com/"}
+    ],
+    "vocabApps": [
+      {"title": "Duolingo — daily vocab & grammar drills", "url": "https://www.duolingo.com/"},
+      {"title": "Quizlet — build your own flashcard sets", "url": "https://quizlet.com/"},
+      {"title": "Anki — spaced-repetition flashcards", "url": "https://apps.ankiweb.net/"}
+    ],
+    "conjugation": [
+      {"title": "Le Conjugueur — conjugate any French verb", "url": "https://leconjugueur.lefigaro.fr/"}
+    ]
+  },
+  "dayTemplate": [
+    {"day": 1, "skill": "grammar", "label": "Grammar", "slot": 0, "task": "Read Grammar Focus 1 below. Copy out all the example sentences by hand, then write 5 new sentences of your own using the same pattern."},
+    {"day": 2, "skill": "vocab", "label": "Vocabulary", "slot": null, "task": "Make flashcards (use the Flashcards tab) for this unit's vocabulary list. Drill until you can go through the whole deck without missing one. Then write 5 sentences, each using a different new word."},
+    {"day": 3, "skill": "listening", "label": "Listening", "slot": null, "task": "Open one of this unit's listening resources. Listen once for general meaning, then again while writing down 5 words or phrases you recognise."},
+    {"day": 4, "skill": "grammar", "label": "Grammar", "slot": 1, "task": "Read Grammar Focus 2 below. Say every example sentence out loud, then write 5 new sentences of your own using the same pattern."},
+    {"day": 5, "skill": "reading", "label": "Reading", "slot": null, "task": "Open one of this unit's reading resources. Read a short beginner-level text, underline unfamiliar words, and look up 10 of them."},
+    {"day": 6, "skill": "pronunciation", "label": "Pronunciation", "slot": null, "task": "Read the Pronunciation Focus below. Practise the example words/sentences out loud 10 times each, ideally recording yourself to compare."},
+    {"day": 7, "skill": "review", "label": "Review", "slot": null, "task": "Re-read both grammar focuses and skim your vocabulary flashcards. Write one short paragraph (3-4 sentences) combining this week's grammar and vocabulary."},
+    {"day": 8, "skill": "grammar", "label": "Grammar practice", "slot": 2, "task": "Go back over both grammar focuses. Write 8 more practice sentences that mix the two grammar points together with this unit's vocabulary."},
+    {"day": 9, "skill": "writing", "label": "Writing", "slot": null, "task": "Write a short journal entry or dialogue (6-8 sentences) using this unit's grammar and at least 8 vocabulary words."},
+    {"day": 10, "skill": "listening", "label": "Listening", "slot": null, "task": "Open the second listening resource for this unit. This time, try to summarise what you heard in 2-3 French sentences."},
+    {"day": 11, "skill": "speaking", "label": "Speaking", "slot": null, "task": "Say this unit's example sentences and your own sentences out loud from memory (no reading). If possible, use a speaking-practice resource below to try a short real exchange."},
+    {"day": 12, "skill": "reading", "label": "Reading", "slot": null, "task": "Open the second reading resource for this unit. Read for detail this time, and write down the main idea in one French sentence."},
+    {"day": 13, "skill": "review", "label": "Full review", "slot": null, "task": "Review everything from this unit: grammar, vocabulary, pronunciation. Redo any practice sentences you found hardest."},
+    {"day": 14, "skill": "exam", "label": "Unit exam", "slot": null, "task": "Take the Unit Exam (Quiz tab). Read every explanation, even for questions you got right, then note down anything you missed."}
+  ],
+  "units": [
+    {
+      "id": "u01", "order": 1, "level": "A0", "resourceTier": "A0A1",
+      "title": "Bonjour ! Sounds, greetings and être",
+      "grammar": [
+        {"title": "French pronunciation essentials", "explanation": "Most final consonants are silent, except C, R, F, L (remember \"CaReFuL\"). French has nasal vowels (an/en, on, in) made by pushing air through the nose without fully pronouncing the n. Liaison links a normally-silent final consonant to a vowel that starts the next word.", "examples": [{"fr": "Les amis", "en": "pronounced \"lez-ami\" — liaison links the s to amis"}, {"fr": "Il est content.", "en": "the final t of \"est\" stays silent; \"content\" ends in a nasal sound"}]},
+        {"title": "Être (to be) — present tense", "explanation": "Être is one of the two most important French verbs. It is irregular and must be memorised: je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont. Use it for identity, nationality, profession and feelings.", "examples": [{"fr": "Je suis étudiant.", "en": "I am a student."}, {"fr": "Elle est contente.", "en": "She is happy."}]}
+      ],
+      "vocab": [
+        {"fr": "bonjour", "en": "hello / good day"}, {"fr": "au revoir", "en": "goodbye"}, {"fr": "merci", "en": "thank you"},
+        {"fr": "s'il vous plaît", "en": "please (formal)"}, {"fr": "oui", "en": "yes"}, {"fr": "non", "en": "no"},
+        {"fr": "je m'appelle...", "en": "my name is..."}, {"fr": "comment ça va ?", "en": "how are you?"},
+        {"fr": "ça va bien", "en": "I'm fine"}, {"fr": "aujourd'hui", "en": "today"}, {"fr": "merci beaucoup", "en": "thank you very much"},
+        {"fr": "excusez-moi", "en": "excuse me"}
+      ],
+      "pronunciation": {"title": "Nasal vowels: an/en, on, in", "tip": "A nasal vowel sounds like the vowel pushed partly through the nose, with the n or m barely audible as a separate sound. Don't pronounce a hard English \"n\" at the end.", "examples": [{"fr": "maison", "hint": "meh-ZOHN, nasal on"}, {"fr": "vin", "hint": "nasal \"in\" sound, mouth wide"}]},
+      "quiz": [
+        {"q": "Which form of être matches \"nous\"?", "options": ["es", "êtes", "sommes", "sont"], "correctIndex": 2, "explanation": "Nous sommes is the correct pairing — each subject pronoun has its own être form."},
+        {"q": "Which final consonant is usually PRONOUNCED in French?", "options": ["d", "p", "r", "z"], "correctIndex": 2, "explanation": "Remember \"CaReFuL\": C, R, F, L are the final consonants that are typically pronounced."},
+        {"q": "\"Je suis étudiant\" means:", "options": ["I have a student", "I am a student", "I was a student", "I study a student"], "correctIndex": 1, "explanation": "Être + noun/adjective expresses identity or state — \"I am a student.\""},
+        {"q": "Which word contains a nasal vowel?", "options": ["merci", "bonjour", "oui", "non"], "correctIndex": 1 , "explanation": "\"Bonjour\" contains the nasal \"on\" sound."},
+        {"q": "What does \"s'il vous plaît\" mean?", "options": ["Thank you", "Excuse me", "Please (formal)", "Goodbye"], "correctIndex": 2, "explanation": "S'il vous plaît is the formal/plural way to say \"please\"; s'il te plaît is informal."},
+        {"q": "Which subject pronoun pairs with \"est\"?", "options": ["je", "tu", "il/elle/on", "vous"], "correctIndex": 2, "explanation": "Il/elle/on est is the third-person singular form of être."},
+        {"q": "Liaison means:", "options": ["Stressing the first syllable", "Linking a silent final consonant to the next word's vowel sound", "Making every vowel nasal", "Dropping the subject pronoun"], "correctIndex": 1, "explanation": "Liaison connects an otherwise-silent final consonant to a following vowel sound, as in \"les amis.\""},
+        {"q": "How do you say \"goodbye\"?", "options": ["Bonjour", "Merci", "Au revoir", "Oui"], "correctIndex": 2, "explanation": "Au revoir is the standard way to say goodbye."}
+      ]
+    },
+    {
+      "id": "u02", "order": 2, "level": "A0→A1", "resourceTier": "A0A1",
+      "title": "Describing yourself: avoir and negation",
+      "grammar": [
+        {"title": "Avoir (to have) — present tense", "explanation": "Avoir is the second essential irregular verb: j'ai, tu as, il/elle/on a, nous avons, vous avez, ils/elles ont. French also uses avoir (not être) for age and some fixed expressions.", "examples": [{"fr": "J'ai vingt ans.", "en": "I am twenty years old (literally \"I have 20 years\")."}, {"fr": "Elle a un chat.", "en": "She has a cat."}]},
+        {"title": "Negation with ne...pas", "explanation": "To negate a verb, wrap it in ne...pas (ne becomes n' before a vowel sound). Ne goes right before the conjugated verb, pas right after.", "examples": [{"fr": "Je ne suis pas fatigué.", "en": "I am not tired."}, {"fr": "Il n'a pas de chien.", "en": "He doesn't have a dog."}]}
+      ],
+      "vocab": [
+        {"fr": "français(e)", "en": "French (nationality)"}, {"fr": "américain(e)", "en": "American"}, {"fr": "étudiant(e)", "en": "student"},
+        {"fr": "professeur", "en": "teacher"}, {"fr": "sympa", "en": "nice / friendly"}, {"fr": "timide", "en": "shy"},
+        {"fr": "drôle", "en": "funny"}, {"fr": "intelligent(e)", "en": "intelligent"}, {"fr": "jeune", "en": "young"},
+        {"fr": "âgé(e)", "en": "elderly / older"}, {"fr": "un métier", "en": "a job/profession"}, {"fr": "un ami / une amie", "en": "a friend"}
+      ],
+      "pronunciation": {"title": "Adjective agreement changes pronunciation", "tip": "Many feminine adjectives add a final -e that makes a silent final consonant audible: \"grand\" (silent d) vs \"grande\" (d is pronounced).", "examples": [{"fr": "grand / grande", "hint": "grahn / grahnd — the d appears in the feminine"}, {"fr": "français / française", "hint": "frahn-SEH / frahn-SEZ"}]},
+      "quiz": [
+        {"q": "Which form of avoir matches \"vous\"?", "options": ["avez", "avons", "ont", "as"], "correctIndex": 0, "explanation": "Vous avez is the correct second-person plural/formal form of avoir."},
+        {"q": "How do you say \"I am not tired\"?", "options": ["Je suis pas fatigué", "Je ne suis pas fatigué", "Je ne pas suis fatigué", "Ne je suis pas fatigué"], "correctIndex": 1, "explanation": "Ne goes directly before the conjugated verb and pas directly after: Je ne suis pas fatigué."},
+        {"q": "\"J'ai vingt ans\" uses which verb to express age?", "options": ["être", "avoir", "faire", "aller"], "correctIndex": 1, "explanation": "French uses avoir, not être, to state age."},
+        {"q": "What is the feminine form of \"français\"?", "options": ["française", "françaisse", "françaix", "français"], "correctIndex": 0, "explanation": "Most adjectives ending in -ais add -e for the feminine: française."},
+        {"q": "\"Il n'a pas de chien\" means:", "options": ["He has a dog", "He doesn't have a dog", "He is not a dog", "He had a dog"], "correctIndex": 1, "explanation": "Ne...pas negates avoir, and de replaces un/une after a negated verb."},
+        {"q": "Which adjective means \"shy\"?", "options": ["drôle", "timide", "sympa", "jeune"], "correctIndex": 1, "explanation": "Timide means shy."},
+        {"q": "Why is the d in \"grande\" pronounced but silent in \"grand\"?", "options": ["Random exception", "The feminine -e makes the preceding consonant audible", "It depends on the speaker's region", "Grand is always silent"], "correctIndex": 1, "explanation": "Adding the feminine -e reveals the consonant that is otherwise silent at the end of a word."},
+        {"q": "Which is the correct subject + avoir pairing?", "options": ["tu a", "nous avez", "ils ont", "je as"], "correctIndex": 2, "explanation": "Ils/elles ont is correct; the others mismatch subject and verb form."}
+      ]
+    },
+    {
+      "id": "u03", "order": 3, "level": "A1", "resourceTier": "A0A1",
+      "title": "Everyday objects and -ER verbs",
+      "grammar": [
+        {"title": "Gender, articles and plurals", "explanation": "Every French noun is masculine or feminine; the article shows it: le/un (masc.), la/une (fem.), les/des (plural). Most nouns add -s for the plural (silent in speech). There is no reliable shortcut for gender — learn it with each word.", "examples": [{"fr": "le livre / les livres", "en": "the book / the books"}, {"fr": "une table / des tables", "en": "a table / some tables"}]},
+        {"title": "Regular -ER verbs in the present", "explanation": "The largest group of French verbs ends in -er (parler, aimer, habiter...). Drop -er and add: -e, -es, -e, -ons, -ez, -ent.", "examples": [{"fr": "Je parle français.", "en": "I speak French."}, {"fr": "Nous habitons à Paris.", "en": "We live in Paris."}]}
+      ],
+      "vocab": [
+        {"fr": "un livre", "en": "a book"}, {"fr": "une table", "en": "a table"}, {"fr": "une chaise", "en": "a chair"},
+        {"fr": "un stylo", "en": "a pen"}, {"fr": "un ordinateur", "en": "a computer"}, {"fr": "une fenêtre", "en": "a window"},
+        {"fr": "rouge", "en": "red"}, {"fr": "bleu(e)", "en": "blue"}, {"fr": "vert(e)", "en": "green"},
+        {"fr": "noir(e)", "en": "black"}, {"fr": "parler", "en": "to speak"}, {"fr": "habiter", "en": "to live (reside)"}
+      ],
+      "pronunciation": {"title": "Silent -ent verb ending", "tip": "In -er verbs, the ils/elles form ending -ent is completely silent; it never sounds like \"ent\" in English.", "examples": [{"fr": "ils parlent", "hint": "eel parl — the -ent is silent"}, {"fr": "elles habitent", "hint": "ell abeet — again, silent -ent"}]},
+      "quiz": [
+        {"q": "What is the plural of \"le livre\"?", "options": ["les livre", "les livres", "le livres", "des livre"], "correctIndex": 1, "explanation": "The article changes to les and the noun adds -s: les livres."},
+        {"q": "Which ending goes with \"nous\" for -er verbs?", "options": ["-e", "-ons", "-ez", "-ent"], "correctIndex": 1, "explanation": "Nous parlons — the nous form of -er verbs always ends in -ons."},
+        {"q": "How is the \"ils/elles\" -ent ending pronounced?", "options": ["Like \"ent\" in English", "Silent", "Like \"ahn\"", "Stressed strongly"], "correctIndex": 1, "explanation": "The -ent ending on -er verbs in the ils/elles form is silent."},
+        {"q": "\"Une table\" uses which type of article?", "options": ["Definite, masculine", "Definite, feminine", "Indefinite, feminine", "Indefinite, masculine"], "correctIndex": 2, "explanation": "Une is the feminine indefinite article (\"a/an\")."},
+        {"q": "Which verb form matches \"tu\"?", "options": ["parles", "parle", "parlons", "parlez"], "correctIndex": 0, "explanation": "Tu parles is the correct second-person singular form."},
+        {"q": "\"J'habite à Paris\" means:", "options": ["I visit Paris", "I live in Paris", "I love Paris", "I leave Paris"], "correctIndex": 1, "explanation": "Habiter means \"to live/reside\"."},
+        {"q": "Which word means \"a pen\"?", "options": ["un stylo", "une chaise", "un livre", "une table"], "correctIndex": 0, "explanation": "Un stylo is a pen."},
+        {"q": "How many grammatical genders does French have for nouns?", "options": ["One", "Two", "Three", "Four"], "correctIndex": 1, "explanation": "French nouns are either masculine or feminine — there is no neuter."}
+      ]
+    },
+    {
+      "id": "u04", "order": 4, "level": "A1", "resourceTier": "A0A1",
+      "title": "Family, possession and questions",
+      "grammar": [
+        {"title": "Possessive adjectives", "explanation": "Possessive adjectives agree with the noun they describe, not with the owner: mon/ma/mes (my), ton/ta/tes (your, informal), son/sa/ses (his/her), notre/nos, votre/vos, leur/leurs.", "examples": [{"fr": "C'est mon frère.", "en": "That's my brother."}, {"fr": "Voici ma sœur.", "en": "Here's my sister."}]},
+        {"title": "Asking questions", "explanation": "Three common ways to ask a question: rising intonation (Tu parles français?), adding est-ce que before a statement (Est-ce que tu parles français?), or inversion in formal speech (Parles-tu français?).", "examples": [{"fr": "Est-ce que tu as une sœur ?", "en": "Do you have a sister?"}, {"fr": "Avez-vous des enfants ?", "en": "Do you have children? (formal, inversion)"}]}
+      ],
+      "vocab": [
+        {"fr": "la famille", "en": "family"}, {"fr": "le père", "en": "father"}, {"fr": "la mère", "en": "mother"},
+        {"fr": "le frère", "en": "brother"}, {"fr": "la sœur", "en": "sister"}, {"fr": "les parents", "en": "parents"},
+        {"fr": "les enfants", "en": "children"}, {"fr": "le mari", "en": "husband"}, {"fr": "la femme", "en": "wife / woman"},
+        {"fr": "vingt", "en": "twenty"}, {"fr": "trente", "en": "thirty"}, {"fr": "cent", "en": "one hundred"}
+      ],
+      "pronunciation": {"title": "The French R", "tip": "The French R is made in the back of the throat (uvular), not rolled with the tongue tip like in Spanish. Practise gargling gently while saying \"r\".", "examples": [{"fr": "frère", "hint": "frehr — throat R, not tongue-rolled"}, {"fr": "rouge", "hint": "roozh — soft throat R"}]},
+      "quiz": [
+        {"q": "Which possessive matches \"ma sœur\" if she were your brother instead?", "options": ["ma frère", "mon frère", "mes frère", "ton frère"], "correctIndex": 1, "explanation": "Frère is masculine, so it takes mon, not ma — possessives agree with the noun's gender, not the owner's."},
+        {"q": "Which sentence is a formal inversion question?", "options": ["Tu as des enfants ?", "Est-ce que tu as des enfants ?", "As-tu des enfants ?", "Tu as des enfants, non ?"], "correctIndex": 2, "explanation": "As-tu...? inverts the verb and subject, which is the formal question pattern."},
+        {"q": "\"Leur\" means:", "options": ["our", "your (formal)", "their", "his"], "correctIndex": 2, "explanation": "Leur/leurs is the possessive adjective for \"their\"."},
+        {"q": "How is the French R typically produced?", "options": ["Rolled with the tongue tip", "In the back of the throat", "Like an English R", "Silent"], "correctIndex": 1, "explanation": "The standard French R is a uvular sound made in the back of the throat."},
+        {"q": "What does \"les enfants\" mean?", "options": ["the parents", "the children", "the family", "the husband"], "correctIndex": 1, "explanation": "Les enfants means \"the children\"."},
+        {"q": "Which number is \"cent\"?", "options": ["20", "30", "100", "1000"], "correctIndex": 2, "explanation": "Cent means one hundred."},
+        {"q": "Possessive adjectives in French agree with:", "options": ["The owner's gender", "The noun they describe", "Always masculine", "Always plural"], "correctIndex": 1, "explanation": "Unlike English, French possessives agree with the gender/number of the noun being possessed."},
+        {"q": "Which starts a yes/no question without changing word order?", "options": ["Inversion", "Est-ce que", "Ne...pas", "Qui"], "correctIndex": 1, "explanation": "Est-ce que can be added before any statement to turn it into a question, with no word-order change."}
+      ]
+    },
+    {
+      "id": "u05", "order": 5, "level": "A1", "resourceTier": "A0A1",
+      "title": "Daily routine, reflexive verbs and -RE verbs",
+      "grammar": [
+        {"title": "Reflexive verbs", "explanation": "Reflexive verbs describe actions you do to yourself and need a reflexive pronoun matching the subject: me, te, se, nous, vous, se. Many daily-routine verbs are reflexive.", "examples": [{"fr": "Je me lève à sept heures.", "en": "I get (myself) up at seven."}, {"fr": "Elle se douche le matin.", "en": "She showers in the morning."}]},
+        {"title": "Regular -RE verbs in the present", "explanation": "Verbs ending in -re (attendre, vendre, répondre...) drop -re and add: -s, -s, nothing (for il/elle), -ons, -ez, -ent.", "examples": [{"fr": "J'attends le bus.", "en": "I'm waiting for the bus."}, {"fr": "Elle répond à la question.", "en": "She answers the question."}]}
+      ],
+      "vocab": [
+        {"fr": "se lever", "en": "to get up"}, {"fr": "se laver", "en": "to wash oneself"}, {"fr": "se coucher", "en": "to go to bed"},
+        {"fr": "le matin", "en": "the morning"}, {"fr": "le soir", "en": "the evening"}, {"fr": "une heure", "en": "an hour / o'clock"},
+        {"fr": "petit-déjeuner", "en": "breakfast"}, {"fr": "déjeuner", "en": "lunch"}, {"fr": "dîner", "en": "dinner"},
+        {"fr": "attendre", "en": "to wait"}, {"fr": "répondre", "en": "to answer"}, {"fr": "tous les jours", "en": "every day"}
+      ],
+      "pronunciation": {"title": "The French U vs OU sound", "tip": "French \"u\" (as in \"tu\") is a tight, rounded sound not found in English — round your lips as if saying \"ee\" but push them forward. \"Ou\" (as in \"vous\") is like English \"oo\".", "examples": [{"fr": "tu / tout", "hint": "tu = tight rounded \"u\"; tout = \"too\""}, {"fr": "rue / roue", "hint": "rue (street, tight u) vs roue (wheel, oo)"}]},
+      "quiz": [
+        {"q": "Which reflexive pronoun matches \"nous\"?", "options": ["me", "te", "se", "nous"], "correctIndex": 3, "explanation": "Nous nous levons — the reflexive pronoun matches the subject pronoun."},
+        {"q": "\"Je me lève\" means:", "options": ["I lift something", "I get myself up", "I lay down", "I wake someone else"], "correctIndex": 1, "explanation": "Se lever means \"to get (oneself) up\"."},
+        {"q": "What is the il/elle ending for -re verbs?", "options": ["-s", "-t", "nothing added", "-ent"], "correctIndex": 2, "explanation": "Il/elle attend — the third-person singular of -re verbs adds no extra letter."},
+        {"q": "Which sound is \"tu\"'s vowel closest to?", "options": ["English \"oo\"", "A tight rounded sound not in English", "English \"uh\"", "English long \"a\""], "correctIndex": 1, "explanation": "The French u is a distinct rounded-front vowel with no real English equivalent."},
+        {"q": "\"J'attends le bus\" means:", "options": ["I sell the bus", "I take the bus", "I'm waiting for the bus", "I drive the bus"], "correctIndex": 2, "explanation": "Attendre means \"to wait for\"."},
+        {"q": "Which word means \"evening\"?", "options": ["le matin", "le soir", "une heure", "tous les jours"], "correctIndex": 1, "explanation": "Le soir means \"the evening\"."},
+        {"q": "Reflexive verbs are used when:", "options": ["The subject and object of the action are the same person", "The verb is irregular", "The sentence is a question", "The verb ends in -er only"], "correctIndex": 0, "explanation": "Reflexive verbs describe an action the subject performs on themselves."},
+        {"q": "\"Elle répond à la question\" means:", "options": ["She asks the question", "She answers the question", "She waits for the question", "She reads the question"], "correctIndex": 1, "explanation": "Répondre means \"to answer/respond\"."}
+      ]
+    },
+    {
+      "id": "u06", "order": 6, "level": "A1", "resourceTier": "A0A1",
+      "title": "Food, shopping and aller/faire",
+      "grammar": [
+        {"title": "Partitive articles: du, de la, des", "explanation": "Use du (masc.), de la (fem.), de l' (before a vowel) and des (plural) to say \"some\" of an uncountable or unspecified amount, especially with food and drink.", "examples": [{"fr": "Je voudrais du pain.", "en": "I would like some bread."}, {"fr": "Elle boit de l'eau.", "en": "She drinks (some) water."}]},
+        {"title": "Aller and faire", "explanation": "Aller (to go) and faire (to do/make) are both irregular and extremely common. Aller: vais, vas, va, allons, allez, vont. Faire: fais, fais, fait, faisons, faites, font.", "examples": [{"fr": "Je vais au marché.", "en": "I'm going to the market."}, {"fr": "Nous faisons les courses.", "en": "We're doing the shopping."}]}
+      ],
+      "vocab": [
+        {"fr": "le pain", "en": "bread"}, {"fr": "le fromage", "en": "cheese"}, {"fr": "l'eau", "en": "water"},
+        {"fr": "le marché", "en": "the market"}, {"fr": "un magasin", "en": "a shop"}, {"fr": "combien ça coûte ?", "en": "how much does it cost?"},
+        {"fr": "cher / pas cher", "en": "expensive / cheap"}, {"fr": "faire les courses", "en": "to do the (grocery) shopping"},
+        {"fr": "une pomme", "en": "an apple"}, {"fr": "des légumes", "en": "vegetables"}, {"fr": "la viande", "en": "meat"},
+        {"fr": "voudrais (je voudrais)", "en": "would like (I would like)"}
+      ],
+      "pronunciation": {"title": "The mute H and elision", "tip": "French h is always silent. Before most h-words and all vowel-starting words, le/la shorten to l' (elision) — le + eau → l'eau.", "examples": [{"fr": "l'eau", "hint": "LOH — the h is silent, le becomes l'"}, {"fr": "les haricots", "hint": "leh-ari-KO — h silent, no elision here because this h is \"aspirate\""}]},
+      "quiz": [
+        {"q": "Which partitive article goes with \"eau\" (feminine, starts with a vowel)?", "options": ["du", "de la", "de l'", "des"], "correctIndex": 2, "explanation": "De la shortens to de l' before a vowel sound: de l'eau."},
+        {"q": "Which verb form means \"we are doing\"?", "options": ["je fais", "nous faisons", "ils font", "vous faites"], "correctIndex": 1, "explanation": "Nous faisons is the first-person plural of faire."},
+        {"q": "\"Je vais au marché\" means:", "options": ["I came from the market", "I am at the market", "I'm going to the market", "I like the market"], "correctIndex": 2, "explanation": "Aller + à means \"to go to\"."},
+        {"q": "Is the French letter H ever pronounced?", "options": ["Yes, always", "No, it is always silent", "Only at the start of a word", "Only in plurals"], "correctIndex": 1, "explanation": "The letter h is always silent in French, though some h's block elision/liaison (\"aspirate h\") while others don't."},
+        {"q": "What does \"combien ça coûte ?\" mean?", "options": ["Where is it?", "What is it?", "How much does it cost?", "How many are there?"], "correctIndex": 2, "explanation": "Combien ça coûte? asks for a price."},
+        {"q": "Which article is used for countable plural items like \"some vegetables\"?", "options": ["du", "de la", "de l'", "des"], "correctIndex": 3, "explanation": "Des légumes — des is the plural partitive/indefinite article."},
+        {"q": "Which is the correct faire form for \"tu\"?", "options": ["fais", "fait", "faisons", "font"], "correctIndex": 0, "explanation": "Tu fais is the correct second-person singular form of faire."},
+        {"q": "\"Pas cher\" means:", "options": ["Very expensive", "Not expensive / cheap", "Not available", "On sale"], "correctIndex": 1, "explanation": "Pas cher literally means \"not expensive\", i.e. cheap."}
+      ]
+    },
+    {
+      "id": "u07", "order": 7, "level": "A1→A2", "resourceTier": "A1A2",
+      "title": "Talking about the past I: passé composé with avoir",
+      "grammar": [
+        {"title": "Passé composé with avoir", "explanation": "The passé composé describes completed past actions. Most verbs form it with avoir + past participle. Regular participles: -er verbs → -é, -ir verbs → -i, -re verbs → -u.", "examples": [{"fr": "J'ai parlé avec elle.", "en": "I spoke with her."}, {"fr": "Nous avons fini le travail.", "en": "We finished the work."}]},
+        {"title": "Irregular past participles", "explanation": "Common irregular participles must be memorised individually: faire → fait, prendre → pris, voir → vu, être → été, avoir → eu, pouvoir → pu, vouloir → voulu.", "examples": [{"fr": "J'ai pris le train.", "en": "I took the train."}, {"fr": "Elle a vu le film.", "en": "She saw the film."}]}
+      ],
+      "vocab": [
+        {"fr": "le train", "en": "the train"}, {"fr": "l'avion", "en": "the plane"}, {"fr": "la voiture", "en": "the car"},
+        {"fr": "le billet", "en": "the ticket"}, {"fr": "voyager", "en": "to travel"}, {"fr": "un aéroport", "en": "an airport"},
+        {"fr": "hier", "en": "yesterday"}, {"fr": "la semaine dernière", "en": "last week"}, {"fr": "arriver", "en": "to arrive"},
+        {"fr": "partir", "en": "to leave"}, {"fr": "le vol", "en": "the flight"}, {"fr": "réserver", "en": "to book/reserve"}
+      ],
+      "pronunciation": {"title": "Linking vowel sounds (enchaînement)", "tip": "Unlike liaison (silent letters), enchaînement links an already-pronounced final consonant smoothly to the next word's vowel, so phrases flow without gaps.", "examples": [{"fr": "elle arrive", "hint": "ell-ah-REEV — the l of elle flows into arrive"}, {"fr": "il a pris", "hint": "ee-lah-PREE — smooth linking throughout"}]},
+      "quiz": [
+        {"q": "What is the past participle of \"prendre\"?", "options": ["prendu", "pris", "prit", "prendé"], "correctIndex": 1, "explanation": "Prendre has the irregular participle pris."},
+        {"q": "Which auxiliary verb do most French verbs use in the passé composé?", "options": ["être", "avoir", "faire", "aller"], "correctIndex": 1, "explanation": "Most verbs use avoir as the auxiliary in the passé composé."},
+        {"q": "\"Nous avons fini le travail\" means:", "options": ["We are finishing the work", "We will finish the work", "We finished the work", "We had finished the work"], "correctIndex": 2, "explanation": "Avoir (present) + past participle = passé composé, a completed past action."},
+        {"q": "What is the regular participle ending for -ir verbs?", "options": ["-é", "-i", "-u", "-ait"], "correctIndex": 1, "explanation": "Regular -ir verbs form their participle with -i, e.g. fini."},
+        {"q": "What is the past participle of \"être\"?", "options": ["été", "étant", "suis", "fut"], "correctIndex": 0, "explanation": "Être's irregular past participle is été."},
+        {"q": "Enchaînement is different from liaison because:", "options": ["It only happens with nasal vowels", "It links a consonant that is already pronounced, not a silent one", "It only occurs in questions", "It is identical to liaison"], "correctIndex": 1, "explanation": "Enchaînement links an already-sounded final consonant to the next vowel, unlike liaison which revives a silent one."},
+        {"q": "\"Hier\" means:", "options": ["Today", "Tomorrow", "Yesterday", "Now"], "correctIndex": 2, "explanation": "Hier means \"yesterday\"."},
+        {"q": "Which sentence is correctly formed in the passé composé?", "options": ["J'ai voir le film", "J'ai vu le film", "Je vu ai le film", "J'ai vus le film"], "correctIndex": 1, "explanation": "J'ai vu le film correctly uses avoir + the irregular participle vu."}
+      ]
+    },
+    {
+      "id": "u08", "order": 8, "level": "A2", "resourceTier": "A1A2",
+      "title": "Talking about the past II: passé composé with être",
+      "grammar": [
+        {"title": "Passé composé with être", "explanation": "A small set of verbs of movement/state (often grouped under the mnemonic DR & MRS VANDERTRAMP: Devenir, Revenir, Monter, Rester, Sortir, Venir, Aller, Naître, Descendre, Entrer, Rentrer, Tomber, Retourner, Arriver, Mourir, Partir) use être instead of avoir.", "examples": [{"fr": "Elle est partie tôt.", "en": "She left early."}, {"fr": "Nous sommes arrivés à midi.", "en": "We arrived at noon."}]},
+        {"title": "Past participle agreement with être", "explanation": "With être, the past participle must agree in gender and number with the subject, just like an adjective: add -e for feminine, -s for plural, -es for feminine plural.", "examples": [{"fr": "Ils sont allés au cinéma.", "en": "They (masc./mixed) went to the cinema."}, {"fr": "Elles sont allées au parc.", "en": "They (all feminine) went to the park."}]}
+      ],
+      "vocab": [
+        {"fr": "le week-end", "en": "the weekend"}, {"fr": "sortir", "en": "to go out"}, {"fr": "rester", "en": "to stay"},
+        {"fr": "le cinéma", "en": "the cinema"}, {"fr": "le parc", "en": "the park"}, {"fr": "un concert", "en": "a concert"},
+        {"fr": "s'amuser", "en": "to have fun"}, {"fr": "rentrer", "en": "to go home / return"}, {"fr": "tomber", "en": "to fall"},
+        {"fr": "naître", "en": "to be born"}, {"fr": "mourir", "en": "to die"}, {"fr": "un loisir", "en": "a hobby/leisure activity"}
+      ],
+      "pronunciation": {"title": "Distinguishing é, è and e", "tip": "é is closed and sharp (like \"ay\"), è is open (like \"eh\" in \"bed\"), and an unaccented final e is often silent or very reduced.", "examples": [{"fr": "arrivé / arrivée", "hint": "ah-ree-VAY, closed é sound"}, {"fr": "père", "hint": "PEHR, open è sound"}]},
+      "quiz": [
+        {"q": "Which verb takes être in the passé composé?", "options": ["manger", "parler", "partir", "voir"], "correctIndex": 2, "explanation": "Partir is one of the \"DR MRS VANDERTRAMP\" verbs that use être."},
+        {"q": "\"Elles sont allées au parc\" — why does \"allées\" end in -ées?", "options": ["Random spelling", "Agreement with a feminine plural subject", "It's an irregular participle", "All passé composé verbs end this way"], "correctIndex": 1, "explanation": "With être, the participle agrees with the subject — here feminine plural, so -ées."},
+        {"q": "What does \"naître\" mean?", "options": ["To die", "To be born", "To fall", "To stay"], "correctIndex": 1, "explanation": "Naître means \"to be born\"."},
+        {"q": "Does the past participle agree with the subject when avoir is the auxiliary (basic case)?", "options": ["Yes, always", "No, generally not (unlike with être)", "Only in questions", "Only for -ir verbs"], "correctIndex": 1, "explanation": "With avoir, the participle normally does not agree with the subject (there are object-pronoun exceptions learned later)."},
+        {"q": "Which sound is \"è\" compared to \"é\"?", "options": ["More closed", "More open", "Identical", "Nasal"], "correctIndex": 1, "explanation": "È is an open vowel sound, while é is closed."},
+        {"q": "\"Nous sommes arrivés à midi\" means:", "options": ["We are arriving at noon", "We arrived at noon", "We will arrive at noon", "We had been arriving"], "correctIndex": 1, "explanation": "Être (present) + participle = passé composé, a completed action in the past."},
+        {"q": "Which word means \"a hobby\"?", "options": ["un loisir", "un concert", "le week-end", "s'amuser"], "correctIndex": 0, "explanation": "Un loisir means a hobby or leisure activity."},
+        {"q": "What is the feminine singular ending added to a past participle?", "options": ["-s", "-e", "-es", "-ent"], "correctIndex": 1, "explanation": "Feminine singular agreement adds -e to the participle."}
+      ]
+    },
+    {
+      "id": "u09", "order": 9, "level": "A2", "resourceTier": "A1A2",
+      "title": "Near future, weather and direct object pronouns",
+      "grammar": [
+        {"title": "Futur proche: aller + infinitive", "explanation": "To talk about the near future or firm plans, conjugate aller in the present and add the infinitive of the main verb.", "examples": [{"fr": "Je vais manger.", "en": "I'm going to eat."}, {"fr": "Ils vont voyager en été.", "en": "They're going to travel in summer."}]},
+        {"title": "Direct object pronouns: le, la, les", "explanation": "Le (him/it, masc.), la (her/it, fem.) and les (them) replace a direct object noun and go right before the conjugated verb.", "examples": [{"fr": "Je le vois.", "en": "I see him/it."}, {"fr": "Tu la connais ?", "en": "Do you know her?"}]}
+      ],
+      "vocab": [
+        {"fr": "le temps", "en": "the weather"}, {"fr": "il fait beau", "en": "it's nice (weather)"}, {"fr": "il pleut", "en": "it's raining"},
+        {"fr": "il neige", "en": "it's snowing"}, {"fr": "l'été", "en": "summer"}, {"fr": "l'hiver", "en": "winter"},
+        {"fr": "le printemps", "en": "spring"}, {"fr": "l'automne", "en": "autumn"}, {"fr": "un projet", "en": "a plan/project"},
+        {"fr": "bientôt", "en": "soon"}, {"fr": "demain", "en": "tomorrow"}, {"fr": "prévoir", "en": "to plan/foresee"}
+      ],
+      "pronunciation": {"title": "The French J and G(e/i) sound", "tip": "French j, and g before e/i, make a soft \"zh\" sound like the s in English \"measure\" — never like English j or hard g.", "examples": [{"fr": "je", "hint": "zhuh — soft zh, not English \"j\""}, {"fr": "neige", "hint": "nezh — same soft zh sound"}]},
+      "quiz": [
+        {"q": "\"Je vais manger\" means:", "options": ["I ate", "I eat", "I'm going to eat", "I was eating"], "correctIndex": 2, "explanation": "Aller (present) + infinitive expresses the near future."},
+        {"q": "Which pronoun replaces a feminine singular direct object?", "options": ["le", "la", "les", "lui"], "correctIndex": 1, "explanation": "La replaces a feminine singular direct object."},
+        {"q": "Where does a direct object pronoun usually go?", "options": ["After the conjugated verb", "Right before the conjugated verb", "At the end of the sentence", "Before the subject"], "correctIndex": 1, "explanation": "Object pronouns like le/la/les precede the conjugated verb in standard statements."},
+        {"q": "\"Il pleut\" means:", "options": ["It's sunny", "It's snowing", "It's raining", "It's windy"], "correctIndex": 2, "explanation": "Il pleut means \"it's raining\"."},
+        {"q": "How does French j sound?", "options": ["Like English j in \"job\"", "Like a soft \"zh\" as in \"measure\"", "Silent", "Like English y"], "correctIndex": 1, "explanation": "French j is a soft \"zh\" sound, distinct from the hard English j."},
+        {"q": "Which season is \"l'automne\"?", "options": ["Spring", "Summer", "Autumn", "Winter"], "correctIndex": 2, "explanation": "L'automne means autumn/fall."},
+        {"q": "\"Tu la connais ?\" means:", "options": ["Do you know him?", "Do you know her?", "Do you know them?", "Do you know me?"], "correctIndex": 1, "explanation": "La is the feminine singular object pronoun, here referring to \"her\"."},
+        {"q": "Futur proche is best used for:", "options": ["Distant hypothetical futures", "Near-term plans and firm intentions", "Completed past actions", "Ongoing habitual actions"], "correctIndex": 1, "explanation": "The futur proche (aller + infinitive) expresses near or planned future actions, similar to English \"going to\"."}
+      ]
+    },
+    {
+      "id": "u10", "order": 10, "level": "A2", "resourceTier": "A1A2",
+      "title": "Places, directions and the imperative",
+      "grammar": [
+        {"title": "Prepositions of place", "explanation": "À + definite article contracts: à + le → au, à + les → aux (à + la and à + l' stay the same). De behaves similarly: de + le → du, de + les → des.", "examples": [{"fr": "Je vais au supermarché.", "en": "I'm going to the supermarket."}, {"fr": "C'est en face de la banque.", "en": "It's across from the bank."}]},
+        {"title": "The imperative mood", "explanation": "Used for commands/instructions. Drop the subject pronoun and use the tu/nous/vous verb form (tu-form -er verbs drop the final -s: tourne, not tournes).", "examples": [{"fr": "Tournez à gauche.", "en": "Turn left. (formal/plural)"}, {"fr": "Continue tout droit.", "en": "Keep going straight. (informal)"}]}
+      ],
+      "vocab": [
+        {"fr": "à gauche", "en": "to the left"}, {"fr": "à droite", "en": "to the right"}, {"fr": "tout droit", "en": "straight ahead"},
+        {"fr": "près de", "en": "near"}, {"fr": "loin de", "en": "far from"}, {"fr": "en face de", "en": "across from"},
+        {"fr": "le carrefour", "en": "the intersection"}, {"fr": "la rue", "en": "the street"}, {"fr": "le quartier", "en": "the neighbourhood"},
+        {"fr": "un appartement", "en": "an apartment"}, {"fr": "le loyer", "en": "the rent"}, {"fr": "tourner", "en": "to turn"}
+      ],
+      "pronunciation": {"title": "Open O (comme \"porte\") vs closed O (comme \"beau\")", "tip": "Closed o (as in beau, eau) is rounded and tense; open o (as in porte, votre) is more relaxed, closer to English \"o\" in \"pot\".", "examples": [{"fr": "beau", "hint": "BOH — closed, tense"}, {"fr": "porte", "hint": "PORT — more open"}]},
+      "quiz": [
+        {"q": "What does \"à\" + \"le\" contract to?", "options": ["à le", "au", "aux", "del"], "correctIndex": 1, "explanation": "À + le always contracts to au."},
+        {"q": "Which command form correctly drops the -s from the tu form of an -er verb?", "options": ["Tournes à gauche.", "Tourne à gauche.", "Tu tourne à gauche.", "Tournez-tu à gauche."], "correctIndex": 1, "explanation": "The imperative tu-form of -er verbs drops the final -s: Tourne à gauche."},
+        {"q": "\"En face de la banque\" means:", "options": ["Inside the bank", "Near the bank", "Across from the bank", "Behind the bank"], "correctIndex": 2, "explanation": "En face de means \"across from/opposite\"."},
+        {"q": "Which contraction is correct for \"de\" + \"les\"?", "options": ["de les", "des", "du", "de l'"], "correctIndex": 1, "explanation": "De + les always contracts to des."},
+        {"q": "What does \"le loyer\" mean?", "options": ["The landlord", "The rent", "The neighbourhood", "The lease"], "correctIndex": 1, "explanation": "Le loyer means \"the rent\"."},
+        {"q": "Imperatives are formed by:", "options": ["Adding a question word", "Dropping the subject pronoun and using the verb form directly", "Always using the infinitive", "Using the passé composé"], "correctIndex": 1, "explanation": "French commands drop the subject pronoun and use the matching verb conjugation."},
+        {"q": "Which vowel sound is more relaxed/open?", "options": ["The o in \"beau\"", "The o in \"porte\"", "Both are identical", "Neither, they are nasal"], "correctIndex": 1, "explanation": "The o in \"porte\" is the open variant, compared to the closed o in \"beau\"."},
+        {"q": "\"Près de\" means:", "options": ["Far from", "Near", "Across from", "Behind"], "correctIndex": 1, "explanation": "Près de means \"near/close to\"."}
+      ]
+    },
+    {
+      "id": "u11", "order": 11, "level": "A2", "resourceTier": "A1A2",
+      "title": "Comparisons, opinions and modal verbs",
+      "grammar": [
+        {"title": "Comparatives and superlatives", "explanation": "Comparative: plus/moins/aussi + adjective + que. Superlative: le/la/les plus/moins + adjective. Bon (good) is irregular: meilleur (better), le meilleur (best).", "examples": [{"fr": "Elle est plus grande que moi.", "en": "She is taller than me."}, {"fr": "C'est le meilleur restaurant.", "en": "It's the best restaurant."}]},
+        {"title": "Pouvoir, vouloir, devoir", "explanation": "These irregular modal verbs are followed directly by an infinitive: pouvoir (can/to be able to), vouloir (to want), devoir (must/to have to).", "examples": [{"fr": "Je peux venir demain.", "en": "I can come tomorrow."}, {"fr": "Tu dois étudier.", "en": "You must study."}]}
+      ],
+      "vocab": [
+        {"fr": "penser", "en": "to think"}, {"fr": "préférer", "en": "to prefer"}, {"fr": "à mon avis", "en": "in my opinion"},
+        {"fr": "je suis d'accord", "en": "I agree"}, {"fr": "je ne suis pas d'accord", "en": "I disagree"}, {"fr": "un passe-temps", "en": "a hobby"},
+        {"fr": "la lecture", "en": "reading"}, {"fr": "le sport", "en": "sport"}, {"fr": "la musique", "en": "music"},
+        {"fr": "meilleur(e)", "en": "better/best"}, {"fr": "pire", "en": "worse/worst"}, {"fr": "intéressant(e)", "en": "interesting"}
+      ],
+      "pronunciation": {"title": "Word stress and rhythm", "tip": "French has no strong stressed syllable within a word like English does; stress falls lightly on the last syllable of a phrase/group, giving French its even, flowing rhythm.", "examples": [{"fr": "C'est intéressant.", "hint": "even rhythm, slight emphasis only on the last syllable"}, {"fr": "à mon avis", "hint": "flows as one smooth unit, no single stressed syllable"}]},
+      "quiz": [
+        {"q": "How do you say \"taller than\" using an adjective?", "options": ["plus grand que", "grand plus que", "le plus grand", "aussi grand"], "correctIndex": 0, "explanation": "Plus + adjective + que forms the comparative \"more ... than\"."},
+        {"q": "What is the irregular comparative of \"bon\"?", "options": ["plus bon", "meilleur", "bonneur", "le bon"], "correctIndex": 1, "explanation": "Bon has an irregular comparative form: meilleur."},
+        {"q": "\"Je peux venir demain\" means:", "options": ["I must come tomorrow", "I want to come tomorrow", "I can come tomorrow", "I came yesterday"], "correctIndex": 2, "explanation": "Pouvoir expresses ability/permission: \"can\"."},
+        {"q": "Which verb expresses obligation?", "options": ["pouvoir", "vouloir", "devoir", "préférer"], "correctIndex": 2, "explanation": "Devoir means \"must/to have to\"."},
+        {"q": "Where does French stress typically fall?", "options": ["On the first syllable of every word", "Lightly on the last syllable of a phrase", "Randomly", "On the vowel a only"], "correctIndex": 1, "explanation": "French stress is even, with a light emphasis on the final syllable of a phrase rather than a fixed word-stress like English."},
+        {"q": "\"À mon avis\" means:", "options": ["By the way", "In my opinion", "Of course", "In general"], "correctIndex": 1, "explanation": "À mon avis means \"in my opinion\"."},
+        {"q": "What does \"pire\" mean?", "options": ["Better", "Best", "Worse/worst", "Equal"], "correctIndex": 2, "explanation": "Pire is the irregular comparative/superlative of mauvais, meaning \"worse/worst\"."},
+        {"q": "Modal verbs like pouvoir, vouloir, devoir are followed by:", "options": ["A conjugated verb", "An infinitive", "A past participle", "A noun only"], "correctIndex": 1, "explanation": "These modal verbs are directly followed by an infinitive, with no preposition needed."}
+      ]
+    },
+    {
+      "id": "u12", "order": 12, "level": "A2", "resourceTier": "A1A2",
+      "title": "Health, the body and il faut",
+      "grammar": [
+        {"title": "Reflexive verbs in the passé composé", "explanation": "Reflexive verbs always use être in the passé composé, with the reflexive pronoun placed before être, and the participle usually agreeing with the subject.", "examples": [{"fr": "Elle s'est levée tôt.", "en": "She got up early."}, {"fr": "Ils se sont amusés.", "en": "They had fun."}]},
+        {"title": "Il faut + infinitive", "explanation": "Il faut is an impersonal expression meaning \"it is necessary to / one must\", followed directly by an infinitive. It never changes form for the subject.", "examples": [{"fr": "Il faut boire de l'eau.", "en": "You need to drink water."}, {"fr": "Il faut consulter un médecin.", "en": "You should see a doctor."}]}
+      ],
+      "vocab": [
+        {"fr": "la tête", "en": "the head"}, {"fr": "le ventre", "en": "the stomach"}, {"fr": "le dos", "en": "the back"},
+        {"fr": "la gorge", "en": "the throat"}, {"fr": "avoir mal à...", "en": "to have pain in..."}, {"fr": "malade", "en": "sick"},
+        {"fr": "un médecin", "en": "a doctor"}, {"fr": "une pharmacie", "en": "a pharmacy"}, {"fr": "un médicament", "en": "a medicine"},
+        {"fr": "la fièvre", "en": "fever"}, {"fr": "se sentir", "en": "to feel"}, {"fr": "guérir", "en": "to heal/recover"}
+      ],
+      "pronunciation": {"title": "The French CH sound", "tip": "French ch always makes a soft \"sh\" sound (as in English \"shoe\"), never a hard \"ch\" like in \"chair\".", "examples": [{"fr": "chaud", "hint": "SHOH — soft sh sound"}, {"fr": "chercher", "hint": "shair-SHAY — both ch's are soft sh"}]},
+      "quiz": [
+        {"q": "Which auxiliary do reflexive verbs always use in the passé composé?", "options": ["avoir", "être", "faire", "aller"], "correctIndex": 1, "explanation": "Reflexive verbs always take être as the auxiliary."},
+        {"q": "\"Il faut boire de l'eau\" means:", "options": ["It's optional to drink water", "You must drink water", "She drinks water", "Water is necessary for plants"], "correctIndex": 1, "explanation": "Il faut + infinitive expresses necessity: \"one must/needs to\"."},
+        {"q": "How does \"ch\" sound in French?", "options": ["Like \"ch\" in English \"chair\"", "Like \"sh\" in English \"shoe\"", "Silent", "Like \"k\""], "correctIndex": 1, "explanation": "French ch is consistently pronounced like the English \"sh\" sound."},
+        {"q": "What does \"avoir mal à la tête\" mean?", "options": ["To be happy", "To have a headache", "To be tired", "To have a fever"], "correctIndex": 1, "explanation": "Avoir mal à + body part means \"to have pain in...\", here \"headache\"."},
+        {"q": "Does \"il faut\" change form depending on who needs to do something?", "options": ["Yes, it conjugates like a normal verb", "No, it is invariable", "Only in the past tense", "Only in questions"], "correctIndex": 1, "explanation": "Il faut is an impersonal expression and does not change for different subjects."},
+        {"q": "\"Elle s'est levée tôt\" — why does \"levée\" end in -ée?", "options": ["Random", "Agreement with the feminine subject elle", "It's irregular", "All reflexive verbs end this way"], "correctIndex": 1, "explanation": "With être (reflexive verbs), the participle agrees with the subject — feminine singular here."},
+        {"q": "What is \"une pharmacie\"?", "options": ["A hospital", "A doctor's office", "A pharmacy", "A clinic"], "correctIndex": 2, "explanation": "Une pharmacie means \"a pharmacy\"."},
+        {"q": "What does \"guérir\" mean?", "options": ["To get sick", "To heal/recover", "To feel pain", "To visit a doctor"], "correctIndex": 1, "explanation": "Guérir means \"to heal/recover\"."}
+      ]
+    },
+    {
+      "id": "u13", "order": 13, "level": "A2", "resourceTier": "A1A2",
+      "title": "Shopping, clothes and demonstratives",
+      "grammar": [
+        {"title": "Demonstrative adjectives and pronouns", "explanation": "Demonstrative adjectives (this/that): ce (masc.), cette (fem.), ces (plural), cet (before masc. vowel sound). Demonstrative pronouns (this one/that one): celui, celle, ceux, celles.", "examples": [{"fr": "Je préfère cette robe.", "en": "I prefer this dress."}, {"fr": "Celui-ci est moins cher.", "en": "This one (masc.) is cheaper."}]},
+        {"title": "Introducing en and y", "explanation": "En replaces \"de + noun\" (often quantities); y replaces \"à/en/dans + place\". Both go right before the conjugated verb.", "examples": [{"fr": "J'en veux deux.", "en": "I want two of them."}, {"fr": "On y va ?", "en": "Shall we go (there)?"}]}
+      ],
+      "vocab": [
+        {"fr": "un vêtement", "en": "a piece of clothing"}, {"fr": "une robe", "en": "a dress"}, {"fr": "un pantalon", "en": "trousers/pants"},
+        {"fr": "des chaussures", "en": "shoes"}, {"fr": "la taille", "en": "the size"}, {"fr": "essayer", "en": "to try on/try"},
+        {"fr": "en solde", "en": "on sale"}, {"fr": "le prix", "en": "the price"}, {"fr": "la caisse", "en": "the checkout"},
+        {"fr": "payer", "en": "to pay"}, {"fr": "rendre (de l'argent)", "en": "to give change back"}, {"fr": "la cabine d'essayage", "en": "the fitting room"}
+      ],
+      "pronunciation": {"title": "Distinguishing s (voiceless) vs z (voiced)", "tip": "A single s between vowels is pronounced z; a double ss stays as a hard s. Compare poison (poison, with z) and poisson (fish, with s).", "examples": [{"fr": "poison", "hint": "pwa-ZOHN — single s = z sound"}, {"fr": "poisson", "hint": "pwa-SOHN — double s = s sound"}]},
+      "quiz": [
+        {"q": "Which demonstrative adjective goes with a masculine noun before a vowel sound?", "options": ["ce", "cet", "cette", "ces"], "correctIndex": 1, "explanation": "Cet is used before a masculine noun starting with a vowel sound, e.g. cet homme."},
+        {"q": "\"J'en veux deux\" means:", "options": ["I want them here", "I want two of them", "I don't want any", "I want to go there"], "correctIndex": 1, "explanation": "En replaces a quantity expression (\"de + noun\"): \"two of them\"."},
+        {"q": "How is a single \"s\" between two vowels pronounced?", "options": ["Like \"s\" in \"sun\"", "Like \"z\"", "Silent", "Like \"sh\""], "correctIndex": 1, "explanation": "A lone intervocalic s is voiced, pronounced like \"z\": poison."},
+        {"q": "What does \"en solde\" mean?", "options": ["Expensive", "On sale", "Out of stock", "New arrival"], "correctIndex": 1, "explanation": "En solde means \"on sale\"."},
+        {"q": "\"On y va ?\" means:", "options": ["Are we leaving?", "Shall we go (there)?", "Where are we?", "Who is going?"], "correctIndex": 1, "explanation": "Y replaces a previously mentioned place: \"shall we go there?\"."},
+        {"q": "What is \"la cabine d'essayage\"?", "options": ["The checkout", "The fitting room", "The entrance", "The price tag"], "correctIndex": 1, "explanation": "La cabine d'essayage is the fitting room."},
+        {"q": "Which word means \"to try on\"?", "options": ["payer", "essayer", "rendre", "préférer"], "correctIndex": 1, "explanation": "Essayer means \"to try/try on\"."},
+        {"q": "Demonstrative pronouns like celui/celle replace:", "options": ["A verb", "A noun already mentioned, meaning \"this/that one\"", "An adjective", "A preposition"], "correctIndex": 1, "explanation": "Celui, celle, ceux, celles stand in for a noun to mean \"this/that one(s)\"."}
+      ]
+    },
+    {
+      "id": "u14", "order": 14, "level": "A2", "resourceTier": "examPrep",
+      "title": "A2 consolidation and exam strategy",
+      "grammar": [
+        {"title": "Mixed review: passé composé vs futur proche", "explanation": "Passé composé = completed past action (already happened). Futur proche (aller + infinitive) = near/planned future. Context words like \"hier\" (passé composé) or \"demain\" (futur proche) are strong clues.", "examples": [{"fr": "Hier, j'ai mangé au restaurant.", "en": "Yesterday, I ate at a restaurant."}, {"fr": "Demain, je vais manger au restaurant.", "en": "Tomorrow, I'm going to eat at a restaurant."}]},
+        {"title": "Object pronoun placement review", "explanation": "Direct (le/la/les), indirect (lui/leur) and adverbial (en/y) pronouns all go directly before the conjugated verb — or before the infinitive if there is one, when the pronoun's action belongs to that infinitive.", "examples": [{"fr": "Je vais le voir demain.", "en": "I'm going to see him tomorrow."}, {"fr": "Elle lui parle souvent.", "en": "She talks to him/her often."}]}
+      ],
+      "vocab": [
+        {"fr": "réviser", "en": "to review/revise"}, {"fr": "un examen", "en": "an exam"}, {"fr": "réussir", "en": "to succeed/pass"},
+        {"fr": "échouer", "en": "to fail"}, {"fr": "une épreuve", "en": "a test component"}, {"fr": "la compréhension orale", "en": "listening comprehension"},
+        {"fr": "la compréhension écrite", "en": "reading comprehension"}, {"fr": "l'expression écrite", "en": "writing"},
+        {"fr": "l'expression orale", "en": "speaking"}, {"fr": "le niveau", "en": "the level"}, {"fr": "les progrès", "en": "progress"},
+        {"fr": "s'entraîner", "en": "to train/practise"}
+      ],
+      "pronunciation": {"title": "Review: liaison, enchaînement, nasal vowels", "tip": "Before any listening test, warm up by reading a short paragraph aloud, paying attention to liaisons, smooth linking between words, and nasal vowels — don't let individual letters slow your flow.", "examples": [{"fr": "Vous avez un examen important.", "hint": "liaison on \"vous avez\", nasal \"un\" and \"important\""}, {"fr": "Elle est arrivée en avance.", "hint": "enchaînement throughout, nasal \"en\""}]},
+      "quiz": [
+        {"q": "Which tense fits \"Hier, je ___ au cinéma\"?", "options": ["vais aller", "suis allé(e)", "vais", "allais"], "correctIndex": 1, "explanation": "\"Hier\" signals a completed past action, requiring the passé composé: je suis allé(e)."},
+        {"q": "Which tense fits \"Demain, nous ___ voir un film\"?", "options": ["avons vu", "sommes allés", "allons", "allions"], "correctIndex": 2, "explanation": "\"Demain\" signals the near future: nous allons voir un film."},
+        {"q": "In \"Je vais le voir demain\", where does the pronoun \"le\" sit?", "options": ["Before \"vais\"", "Before the infinitive \"voir\"", "After \"voir\"", "At the very end of the sentence"], "correctIndex": 1, "explanation": "When there's an infinitive, the object pronoun usually attaches just before that infinitive, not before the conjugated aller."},
+        {"q": "What does \"réussir un examen\" mean?", "options": ["To fail an exam", "To pass an exam", "To take an exam", "To cancel an exam"], "correctIndex": 1, "explanation": "Réussir means \"to succeed/pass\"."},
+        {"q": "\"La compréhension orale\" tests which skill?", "options": ["Reading", "Writing", "Listening", "Speaking"], "correctIndex": 2, "explanation": "Compréhension orale is listening comprehension."},
+        {"q": "Which word means \"to fail\"?", "options": ["réussir", "échouer", "réviser", "s'entraîner"], "correctIndex": 1, "explanation": "Échouer means \"to fail\"."},
+        {"q": "Before a listening exam, a good warm-up is:", "options": ["Memorising vocabulary lists silently", "Reading a paragraph aloud, focused on liaison and linking", "Avoiding any French the day before", "Only reading, never speaking"], "correctIndex": 1, "explanation": "Reading aloud with attention to liaison/linking trains your ear and mouth for natural spoken French."},
+        {"q": "\"Les progrès\" means:", "options": ["The mistakes", "The progress", "The exam", "The level"], "correctIndex": 1, "explanation": "Les progrès means \"the progress\"."}
+      ]
+    },
+    {
+      "id": "u15", "order": 15, "level": "A2→B1", "resourceTier": "A2B1",
+      "title": "The imperfect tense and storytelling",
+      "grammar": [
+        {"title": "Imparfait formation", "explanation": "Take the nous form of the present tense, drop -ons, and add: -ais, -ais, -ait, -ions, -iez, -aient. Être is irregular: j'étais, tu étais, il était...", "examples": [{"fr": "Quand j'étais petit, j'habitais à Lyon.", "en": "When I was little, I lived in Lyon."}, {"fr": "Il faisait beau ce jour-là.", "en": "The weather was nice that day."}]},
+        {"title": "Imparfait vs passé composé", "explanation": "Imparfait describes background, ongoing states, habits or descriptions in the past (no clear end point). Passé composé describes specific completed events/actions.", "examples": [{"fr": "Je lisais quand le téléphone a sonné.", "en": "I was reading when the phone rang. (ongoing vs sudden event)"}, {"fr": "Chaque été, nous allions à la plage.", "en": "Every summer, we used to go to the beach. (habit)"}]}
+      ],
+      "vocab": [
+        {"fr": "l'enfance", "en": "childhood"}, {"fr": "autrefois", "en": "in the past / formerly"}, {"fr": "quand j'étais petit(e)", "en": "when I was little"},
+        {"fr": "un souvenir", "en": "a memory"}, {"fr": "raconter", "en": "to tell/narrate"}, {"fr": "une histoire", "en": "a story"},
+        {"fr": "chaque jour", "en": "every day (habitual)"}, {"fr": "à l'époque", "en": "at that time/back then"}, {"fr": "grandir", "en": "to grow up"},
+        {"fr": "se souvenir de", "en": "to remember"}, {"fr": "un événement", "en": "an event"}, {"fr": "soudain", "en": "suddenly"}
+      ],
+      "pronunciation": {"title": "Imparfait endings: -ais, -ait, -aient all sound alike", "tip": "The je/tu/il/elle/ils/elles imparfait endings (-ais, -ait, -aient) are all pronounced identically — an open \"eh\" sound. Only nous/vous sound different (-ions/-iez).", "examples": [{"fr": "je parlais / ils parlaient", "hint": "both end in the same \"eh\" sound, spelling differs"}, {"fr": "nous parlions", "hint": "clearly different: \"par-LYOHN\""}]},
+      "quiz": [
+        {"q": "Which tense describes an ongoing background state in the past?", "options": ["Passé composé", "Imparfait", "Futur proche", "Présent"], "correctIndex": 1, "explanation": "Imparfait is used for descriptions, habits, and ongoing states without a clear endpoint."},
+        {"q": "\"Je lisais quand le téléphone a sonné\" — why is \"a sonné\" passé composé?", "options": ["It's the ongoing background action", "It's the sudden, specific event interrupting the background", "All past tense must be passé composé", "It's a mistake"], "correctIndex": 1, "explanation": "The phone ringing is a specific, completed event, contrasted with the ongoing imparfait action of reading."},
+        {"q": "What is the nous imparfait ending?", "options": ["-ais", "-ait", "-ions", "-aient"], "correctIndex": 2, "explanation": "Nous takes -ions in the imparfait: nous parlions."},
+        {"q": "Do je, il/elle, and ils/elles imparfait endings sound different?", "options": ["Yes, very different", "No, they all sound the same (open \"eh\")", "Only il/elle differs", "Only ils/elles differs"], "correctIndex": 1, "explanation": "-ais, -ait, and -aient are all pronounced identically despite different spelling."},
+        {"q": "\"Chaque été, nous allions à la plage\" expresses:", "options": ["A single past event", "A past habit", "A future plan", "A present fact"], "correctIndex": 1, "explanation": "The imparfait with \"chaque été\" (every summer) expresses a repeated past habit."},
+        {"q": "What does \"se souvenir de\" mean?", "options": ["To forget", "To remember", "To tell a story", "To grow up"], "correctIndex": 1, "explanation": "Se souvenir de means \"to remember\"."},
+        {"q": "Which irregular je-form is used for être in the imparfait?", "options": ["je suis", "j'étais", "je serai", "j'ai été"], "correctIndex": 1, "explanation": "Être's imparfait stem is ét-, giving j'étais."},
+        {"q": "\"Soudain\" means:", "options": ["Slowly", "Suddenly", "Always", "Rarely"], "correctIndex": 1, "explanation": "Soudain means \"suddenly\", often marking a shift to passé composé in a narrative."}
+      ]
+    },
+    {
+      "id": "u16", "order": 16, "level": "B1", "resourceTier": "A2B1",
+      "title": "Futur simple and real conditions (si + présent)",
+      "grammar": [
+        {"title": "Futur simple", "explanation": "Formed from the infinitive (dropping final -e for -re verbs) + endings: -ai, -as, -a, -ons, -ez, -ont. Several common verbs have irregular stems: être→ser-, avoir→aur-, faire→fer-, aller→ir-, pouvoir→pourr-.", "examples": [{"fr": "Je finirai le projet demain.", "en": "I will finish the project tomorrow."}, {"fr": "Elle sera médecin.", "en": "She will be a doctor."}]},
+        {"title": "Si-clauses, type 1 (real/likely condition)", "explanation": "For a realistic future condition: si + present tense in the \"if\" clause, futur simple in the result clause. Never use futur simple directly after si.", "examples": [{"fr": "Si tu étudies, tu réussiras.", "en": "If you study, you will succeed."}, {"fr": "S'il fait beau, nous irons à la plage.", "en": "If the weather is nice, we'll go to the beach."}]}
+      ],
+      "vocab": [
+        {"fr": "l'avenir", "en": "the future"}, {"fr": "un objectif", "en": "a goal"}, {"fr": "l'environnement", "en": "the environment"},
+        {"fr": "le changement climatique", "en": "climate change"}, {"fr": "prédire", "en": "to predict"}, {"fr": "probablement", "en": "probably"},
+        {"fr": "espérer", "en": "to hope"}, {"fr": "une prévision", "en": "a forecast/prediction"}, {"fr": "durable", "en": "sustainable"},
+        {"fr": "polluer", "en": "to pollute"}, {"fr": "recycler", "en": "to recycle"}, {"fr": "réduire", "en": "to reduce"}
+      ],
+      "pronunciation": {"title": "The future-tense R cluster", "tip": "Futur simple endings add an r sound right after the infinitive stem (parlerai, finirai) — don't drop it, even though it can feel like a mouthful next to another consonant.", "examples": [{"fr": "je parlerai", "hint": "par-luh-RAY, the r is fully pronounced"}, {"fr": "nous finirons", "hint": "fee-nee-ROHN"}]},
+      "quiz": [
+        {"q": "What is the futur simple stem of \"être\"?", "options": ["êtr-", "ser-", "fu-", "av-"], "correctIndex": 1, "explanation": "Être has the irregular futur simple stem ser-: je serai, tu seras..."},
+        {"q": "Which tense follows \"si\" in a realistic future condition?", "options": ["Futur simple", "Présent", "Imparfait", "Conditionnel"], "correctIndex": 1, "explanation": "Si + présent, futur simple — never futur simple directly after si."},
+        {"q": "\"Si tu étudies, tu réussiras\" means:", "options": ["If you studied, you would succeed", "If you study, you will succeed", "If you study, you succeed", "You should study to succeed"], "correctIndex": 1, "explanation": "This is a type-1 si-clause: realistic present condition, future result."},
+        {"q": "What is the futur simple ending for \"nous\"?", "options": ["-ai", "-as", "-ons", "-ont"], "correctIndex": 2, "explanation": "Nous takes -ons in the futur simple, same ending shape as other tenses."},
+        {"q": "What does \"durable\" mean in an environmental context?", "options": ["Temporary", "Sustainable", "Polluting", "Expensive"], "correctIndex": 1, "explanation": "Durable means \"sustainable\" or \"long-lasting\"."},
+        {"q": "Which verb means \"to reduce\"?", "options": ["polluer", "recycler", "réduire", "prédire"], "correctIndex": 2, "explanation": "Réduire means \"to reduce\"."},
+        {"q": "In futur simple, what do you add to an infinitive like \"parler\"?", "options": ["Just -ai, -as, -a...", "A whole new irregular stem", "Nothing, it stays the infinitive", "-é, -is, -u"], "correctIndex": 0, "explanation": "Regular futur simple verbs keep the infinitive as the stem and simply add the endings."},
+        {"q": "\"L'avenir\" means:", "options": ["The past", "The present", "The future", "The environment"], "correctIndex": 2, "explanation": "L'avenir means \"the future\"."}
+      ]
+    },
+    {
+      "id": "u17", "order": 17, "level": "B1", "resourceTier": "A2B1",
+      "title": "The conditional mood and hypotheticals",
+      "grammar": [
+        {"title": "Conditionnel présent", "explanation": "Same stem as futur simple, but with imparfait endings: -ais, -ais, -ait, -ions, -iez, -aient. Used for politeness, suggestions, and hypothetical results.", "examples": [{"fr": "Je voudrais un café, s'il vous plaît.", "en": "I would like a coffee, please."}, {"fr": "Tu devrais te reposer.", "en": "You should rest."}]},
+        {"title": "Si-clauses, type 2 (hypothetical/unreal condition)", "explanation": "For a hypothetical or unlikely present condition: si + imparfait in the \"if\" clause, conditionnel présent in the result clause.", "examples": [{"fr": "Si j'avais plus de temps, je voyagerais plus.", "en": "If I had more time, I would travel more."}, {"fr": "Si elle était ici, elle nous aiderait.", "en": "If she were here, she would help us."}]}
+      ],
+      "vocab": [
+        {"fr": "un conseil", "en": "a piece of advice"}, {"fr": "suggérer", "en": "to suggest"}, {"fr": "si j'étais toi...", "en": "if I were you..."},
+        {"fr": "idéalement", "en": "ideally"}, {"fr": "une hypothèse", "en": "a hypothesis"}, {"fr": "souhaiter", "en": "to wish"},
+        {"fr": "à ta place", "en": "in your place/shoes"}, {"fr": "sinon", "en": "otherwise"}, {"fr": "au cas où", "en": "in case"},
+        {"fr": "éventuellement", "en": "possibly/potentially"}, {"fr": "pourtant", "en": "yet/however"}, {"fr": "malgré", "en": "despite"}
+      ],
+      "pronunciation": {"title": "Distinguishing futur simple vs conditionnel aurally", "tip": "Futur (je parlerai) and conditionnel (je parlerais) are spelled differently but sound almost identical in rapid speech — rely on context (a clear \"if\" clause signals conditionnel) more than ear alone.", "examples": [{"fr": "je parlerai / je parlerais", "hint": "par-luh-RAY in both cases, context distinguishes them"}, {"fr": "il viendra / il viendrait", "hint": "vyen-DRA / vyen-DRE, subtly different final vowel"}]},
+      "quiz": [
+        {"q": "What endings does the conditionnel présent use?", "options": ["Futur simple endings", "Imparfait endings", "Présent endings", "Passé composé endings"], "correctIndex": 1, "explanation": "Conditionnel présent uses the futur stem with imparfait endings (-ais, -ais, -ait...)."},
+        {"q": "Which tense follows \"si\" in a hypothetical/unreal condition?", "options": ["Présent", "Futur simple", "Imparfait", "Conditionnel"], "correctIndex": 2, "explanation": "Si + imparfait, conditionnel présent — the type-2 si-clause pattern."},
+        {"q": "\"Je voudrais un café\" is more polite than \"je veux un café\" because:", "options": ["It uses the future tense", "The conditional softens a request", "It's the imperative", "It uses the passé composé"], "correctIndex": 1, "explanation": "Conditionnel is commonly used to make requests sound more polite/less direct."},
+        {"q": "\"Si j'avais plus de temps, je voyagerais plus\" means:", "options": ["If I have more time, I will travel more", "If I had more time, I would travel more", "I had more time, so I travelled", "I will have time to travel"], "correctIndex": 1, "explanation": "Si + imparfait + conditionnel expresses a hypothetical present condition and its hypothetical result."},
+        {"q": "What does \"à ta place\" mean?", "options": ["In your house", "In your place/shoes", "At your job", "Near you"], "correctIndex": 1, "explanation": "À ta place means \"in your place/shoes\", often introducing advice."},
+        {"q": "What does \"malgré\" mean?", "options": ["Because of", "Despite", "Instead of", "Thanks to"], "correctIndex": 1, "explanation": "Malgré means \"despite\"."},
+        {"q": "Why can futur and conditionnel be hard to distinguish by ear?", "options": ["They are spelled the same", "They sound nearly identical in rapid speech", "They are never used in the same context", "French speakers never use conditionnel"], "correctIndex": 1, "explanation": "The forms sound very close, so context (especially an \"if\" clause) is key to telling them apart."},
+        {"q": "Which word means \"otherwise\"?", "options": ["pourtant", "sinon", "éventuellement", "malgré"], "correctIndex": 1, "explanation": "Sinon means \"otherwise\"."}
+      ]
+    },
+    {
+      "id": "u18", "order": 18, "level": "B1", "resourceTier": "A2B1",
+      "title": "Relative pronouns and complex sentences",
+      "grammar": [
+        {"title": "Qui, que, où, dont", "explanation": "Qui = subject of the relative clause (who/which). Que = object of the relative clause (whom/which/that). Où = place/time (where/when). Dont = replaces \"de + noun\" (whose/of which).", "examples": [{"fr": "L'homme qui parle est mon professeur.", "en": "The man who is speaking is my teacher."}, {"fr": "Le livre dont je parle est excellent.", "en": "The book I'm talking about is excellent."}]},
+        {"title": "Joining ideas with relative clauses", "explanation": "Relative clauses let you combine two short sentences into one richer sentence, which is essential for B1-level writing and speaking fluency.", "examples": [{"fr": "C'est la ville où j'ai grandi.", "en": "It's the city where I grew up."}, {"fr": "Voici le film que j'ai vu hier.", "en": "Here's the film (that) I saw yesterday."}]}
+      ],
+      "vocab": [
+        {"fr": "les informations / les infos", "en": "the news"}, {"fr": "un article", "en": "an article"}, {"fr": "une émission", "en": "a TV/radio programme"},
+        {"fr": "selon", "en": "according to"}, {"fr": "un journaliste", "en": "a journalist"}, {"fr": "la presse", "en": "the press"},
+        {"fr": "diffuser", "en": "to broadcast"}, {"fr": "un reportage", "en": "a news report"}, {"fr": "mentionner", "en": "to mention"},
+        {"fr": "décrire", "en": "to describe"}, {"fr": "un fait", "en": "a fact"}, {"fr": "une opinion", "en": "an opinion"}
+      ],
+      "pronunciation": {"title": "Reading longer sentences without pausing mid-clause", "tip": "French speakers group a sentence into short rhythmic units (groupes rythmiques) and pause between them, not mid-clause. Practise marking natural pause points before reading aloud.", "examples": [{"fr": "L'homme qui parle / est mon professeur.", "hint": "pause after the relative clause, not inside it"}, {"fr": "C'est la ville / où j'ai grandi.", "hint": "clear break before \"où\""}]},
+      "quiz": [
+        {"q": "Which relative pronoun is the SUBJECT of its clause?", "options": ["que", "qui", "où", "dont"], "correctIndex": 1, "explanation": "Qui is used when the relative pronoun is the subject of the relative clause."},
+        {"q": "Which relative pronoun replaces \"de + noun\"?", "options": ["qui", "que", "où", "dont"], "correctIndex": 3, "explanation": "Dont replaces a phrase built with de, e.g. \"le livre dont je parle\" (the book I'm talking about)."},
+        {"q": "\"Voici le film que j'ai vu hier\" — why \"que\" and not \"qui\"?", "options": ["Que is for places", "Le film is the object of \"j'ai vu\", not the subject", "Que is only used in questions", "There's no rule, both work"], "correctIndex": 1, "explanation": "Que is used when the relative pronoun is the object of the clause — here, \"le film\" is what was seen."},
+        {"q": "\"C'est la ville où j'ai grandi\" uses \"où\" because it refers to:", "options": ["A person", "A thing being described", "A place", "A quantity"], "correctIndex": 2, "explanation": "Où is used for places (and sometimes time)."},
+        {"q": "What does \"selon\" mean?", "options": ["Despite", "According to", "Instead of", "Because of"], "correctIndex": 1, "explanation": "Selon means \"according to\"."},
+        {"q": "What are \"groupes rythmiques\"?", "options": ["Musical genres", "Rhythmic word groups that French speech pauses between", "Grammar categories", "Verb conjugation groups"], "correctIndex": 1, "explanation": "Groupes rythmiques are the natural rhythmic chunks French sentences are spoken in, with pauses between them rather than within them."},
+        {"q": "What does \"un reportage\" mean?", "options": ["A newspaper", "A news report", "A journalist", "An opinion piece"], "correctIndex": 1, "explanation": "Un reportage means \"a news report\"."},
+        {"q": "Relative clauses are useful because they:", "options": ["Simplify sentences into fragments", "Combine two ideas into one richer sentence", "Only work in the past tense", "Replace the need for adjectives entirely"], "correctIndex": 1, "explanation": "Relative clauses let you combine related ideas fluently into a single, more sophisticated sentence."}
+      ]
+    },
+    {
+      "id": "u19", "order": 19, "level": "B1", "resourceTier": "A2B1",
+      "title": "Opinions, emotions and the subjunctive",
+      "grammar": [
+        {"title": "Introduction to the subjunctive", "explanation": "The subjunctive is used after expressions of necessity, desire, emotion or doubt, typically after \"que\". Formed from the ils present-tense stem + endings -e, -es, -e, -ions, -iez, -ent (être and avoir are irregular).", "examples": [{"fr": "Il faut que tu viennes.", "en": "You need to come."}, {"fr": "Je veux que vous soyez à l'heure.", "en": "I want you to be on time."}]},
+        {"title": "Common subjunctive triggers", "explanation": "Common phrases requiring the subjunctive: il faut que, vouloir que, il est important que, avoir peur que, être content(e) que, douter que.", "examples": [{"fr": "Elle a peur qu'il soit en retard.", "en": "She's afraid he'll be late."}, {"fr": "Nous sommes contents que tu sois là.", "en": "We're happy (that) you're here."}]}
+      ],
+      "vocab": [
+        {"fr": "heureux / heureuse", "en": "happy"}, {"fr": "triste", "en": "sad"}, {"fr": "en colère", "en": "angry"},
+        {"fr": "inquiet / inquiète", "en": "worried"}, {"fr": "fier / fière", "en": "proud"}, {"fr": "surpris(e)", "en": "surprised"},
+        {"fr": "douter", "en": "to doubt"}, {"fr": "craindre", "en": "to fear"}, {"fr": "la société", "en": "society"},
+        {"fr": "un débat", "en": "a debate"}, {"fr": "défendre une idée", "en": "to defend an idea"}, {"fr": "un argument", "en": "an argument/point"}
+      ],
+      "pronunciation": {"title": "Emotional intonation", "tip": "French emotional speech relies more on intonation (pitch rising/falling across the sentence) than on stressing individual words — exaggerate the overall melody, not single syllables, to sound surprised, worried, etc.", "examples": [{"fr": "C'est incroyable !", "hint": "rising pitch across the whole phrase for surprise"}, {"fr": "Je suis vraiment inquiet...", "hint": "falling, drawn-out pitch for worry"}]},
+      "quiz": [
+        {"q": "Which phrase requires the subjunctive?", "options": ["Je pense que...", "Il faut que...", "Je sais que...", "Il est vrai que..."], "correctIndex": 1, "explanation": "Il faut que expresses necessity and triggers the subjunctive."},
+        {"q": "What stem is the regular subjunctive built from?", "options": ["The infinitive", "The nous present-tense form", "The ils present-tense form", "The past participle"], "correctIndex": 2, "explanation": "Regular subjunctive forms use the ils/elles present-tense stem plus subjunctive endings."},
+        {"q": "\"Elle a peur qu'il soit en retard\" means:", "options": ["She knows he's late", "She's afraid he'll be late", "She's happy he's on time", "She doubts he exists"], "correctIndex": 1, "explanation": "Avoir peur que triggers the subjunctive to express fear/worry about a possible event."},
+        {"q": "Which of these does NOT typically trigger the subjunctive?", "options": ["vouloir que", "il est important que", "je pense que", "avoir peur que"], "correctIndex": 2, "explanation": "Je pense que expresses a belief/fact and is followed by the indicative, not the subjunctive."},
+        {"q": "What does \"fier/fière\" mean?", "options": ["Worried", "Angry", "Proud", "Surprised"], "correctIndex": 2, "explanation": "Fier/fière means \"proud\"."},
+        {"q": "French emotional intonation relies mainly on:", "options": ["Stressing a single key word", "Pitch rising and falling across the whole phrase", "Speaking louder", "Pausing after every word"], "correctIndex": 1, "explanation": "Overall melodic pitch contour across the phrase carries most of the emotional meaning in French."},
+        {"q": "What does \"douter\" mean?", "options": ["To believe", "To doubt", "To hope", "To fear"], "correctIndex": 1, "explanation": "Douter means \"to doubt\"."},
+        {"q": "What does \"défendre une idée\" mean?", "options": ["To attack an idea", "To ignore an idea", "To defend/argue for an idea", "To forget an idea"], "correctIndex": 2, "explanation": "Défendre une idée means \"to defend/argue for an idea\", common in debates."}
+      ]
+    },
+    {
+      "id": "u20", "order": 20, "level": "B1", "resourceTier": "A2B1",
+      "title": "Pronoun mastery: en, y and double pronouns",
+      "grammar": [
+        {"title": "En and y in depth", "explanation": "Y replaces à/dans/en/sur + a place or thing (penser à qqch → y penser). En replaces de + a thing, or expresses a quantity (avoir besoin de qqch → en avoir besoin).", "examples": [{"fr": "Tu penses à ton travail ? — Oui, j'y pense.", "en": "Are you thinking about your work? — Yes, I'm thinking about it."}, {"fr": "Tu as besoin d'argent ? — Oui, j'en ai besoin.", "en": "Do you need money? — Yes, I need (some)."}]},
+        {"title": "Double object pronouns", "explanation": "When two pronouns combine, they follow a fixed order: me/te/se/nous/vous before le/la/les, which come before lui/leur, which come before y, which comes before en.", "examples": [{"fr": "Il me le donne.", "en": "He gives it to me."}, {"fr": "Elle leur en parle.", "en": "She talks to them about it."}]}
+      ],
+      "vocab": [
+        {"fr": "le travail", "en": "work"}, {"fr": "une entreprise", "en": "a company"}, {"fr": "un collègue", "en": "a colleague"},
+        {"fr": "un entretien", "en": "an interview"}, {"fr": "un CV", "en": "a résumé/CV"}, {"fr": "postuler", "en": "to apply (for a job)"},
+        {"fr": "un salaire", "en": "a salary"}, {"fr": "la technologie", "en": "technology"}, {"fr": "un ordinateur portable", "en": "a laptop"},
+        {"fr": "un logiciel", "en": "software"}, {"fr": "télécharger", "en": "to download"}, {"fr": "une compétence", "en": "a skill"}
+      ],
+      "pronunciation": {"title": "Speaking fluently with pronoun clusters", "tip": "Clusters like \"il me le donne\" or \"elle leur en parle\" should flow as one smooth breath group — practise them slowly first, then speed up, rather than pronouncing each pronoun separately.", "examples": [{"fr": "il me le donne", "hint": "eel-muh-luh-DON, one flowing unit"}, {"fr": "elle leur en parle", "hint": "el-leur-ahn-PARL, one flowing unit"}]},
+      "quiz": [
+        {"q": "What does \"y\" typically replace?", "options": ["A person's name", "à/dans/sur + a place or thing", "A number", "An adjective"], "correctIndex": 1, "explanation": "Y replaces locations or things introduced by à, dans, sur, en (location)."},
+        {"q": "In \"Il me le donne\", what is the correct pronoun order rule?", "options": ["le before me", "me before le", "Order doesn't matter", "le and me can't combine"], "correctIndex": 1, "explanation": "Me/te/se/nous/vous come before le/la/les in the fixed pronoun order."},
+        {"q": "\"J'en ai besoin\" means:", "options": ["I need it/some (of it)", "I have it here", "I don't need anything", "I want to buy it"], "correctIndex": 0, "explanation": "En replaces \"de + noun\" after avoir besoin de, meaning \"I need some/it\"."},
+        {"q": "What does \"postuler\" mean?", "options": ["To hire someone", "To apply for a job", "To resign", "To get promoted"], "correctIndex": 1, "explanation": "Postuler means \"to apply (for a job)\"."},
+        {"q": "In the double-pronoun order, where does \"y\" sit relative to \"en\"?", "options": ["y comes before en", "en comes before y", "They can never combine", "Order is random"], "correctIndex": 0, "explanation": "The fixed order places y before en when both appear together."},
+        {"q": "What is \"un logiciel\"?", "options": ["Hardware", "Software", "A website", "A password"], "correctIndex": 1, "explanation": "Un logiciel means \"software\"."},
+        {"q": "How should pronoun clusters like \"elle leur en parle\" be practised aloud?", "options": ["Each word separated by a pause", "As one smooth, connected unit", "Only in writing, never aloud", "With stress on every syllable"], "correctIndex": 1, "explanation": "Pronoun clusters are spoken fluently as a single rhythmic unit in natural French."},
+        {"q": "What does \"télécharger\" mean?", "options": ["To upload", "To download", "To delete", "To save"], "correctIndex": 1, "explanation": "Télécharger means \"to download\"."}
+      ]
+    },
+    {
+      "id": "u21", "order": 21, "level": "B1", "resourceTier": "A2B1",
+      "title": "Narration, sequencing and connectors",
+      "grammar": [
+        {"title": "Plus-que-parfait (intro)", "explanation": "The plus-que-parfait (avoir/être in the imparfait + past participle) describes an action that happened before another past action — \"had done\" something.", "examples": [{"fr": "Quand je suis arrivé, elle était déjà partie.", "en": "When I arrived, she had already left."}, {"fr": "Il avait déjà mangé quand nous sommes arrivés.", "en": "He had already eaten when we arrived."}]},
+        {"title": "Logical connectors", "explanation": "Connectors make writing/speaking more sophisticated and are heavily tested at B1: donc (so/therefore), pourtant/cependant (however), parce que/car (because), bien que (although, + subjunctive), d'abord...ensuite...enfin (first...then...finally).", "examples": [{"fr": "Il pleuvait, pourtant nous sommes sortis.", "en": "It was raining, yet we went out."}, {"fr": "Bien qu'il soit fatigué, il continue à travailler.", "en": "Although he is tired, he keeps working."}]}
+      ],
+      "vocab": [
+        {"fr": "l'actualité", "en": "current events"}, {"fr": "un événement récent", "en": "a recent event"}, {"fr": "se passer", "en": "to happen"},
+        {"fr": "d'abord", "en": "first"}, {"fr": "ensuite / puis", "en": "next/then"}, {"fr": "enfin / finalement", "en": "finally"},
+        {"fr": "entre-temps", "en": "meanwhile"}, {"fr": "auparavant", "en": "beforehand"}, {"fr": "par conséquent", "en": "consequently"},
+        {"fr": "en résumé", "en": "in summary"}, {"fr": "un témoin", "en": "a witness"}, {"fr": "un incident", "en": "an incident"}
+      ],
+      "pronunciation": {"title": "Pacing a narrated story aloud", "tip": "When narrating, slow down slightly at connectors (d'abord, ensuite, enfin) — they act as verbal signposts for your listener, so give them a tiny beat of emphasis and a brief pause after.", "examples": [{"fr": "D'abord, / je me suis levé...", "hint": "slight pause after \"d'abord\""}, {"fr": "Ensuite, / nous sommes partis...", "hint": "slight pause after \"ensuite\""}]},
+      "quiz": [
+        {"q": "The plus-que-parfait describes an action that:", "options": ["Is happening now", "Will happen soon", "Happened before another past action", "Happens habitually"], "correctIndex": 2, "explanation": "Plus-que-parfait expresses \"had done\" something, before another past reference point."},
+        {"q": "\"Elle était déjà partie\" uses which auxiliary, and why?", "options": ["Avoir, because partir is regular", "Être, because partir is a être-verb", "Avoir, because it's negative", "Neither, it's a different structure"], "correctIndex": 1, "explanation": "Partir takes être in compound tenses, including the plus-que-parfait."},
+        {"q": "Which connector means \"although\" and requires the subjunctive?", "options": ["parce que", "donc", "bien que", "car"], "correctIndex": 2, "explanation": "Bien que is a concession connector that triggers the subjunctive."},
+        {"q": "What does \"par conséquent\" mean?", "options": ["However", "Consequently", "Beforehand", "Meanwhile"], "correctIndex": 1, "explanation": "Par conséquent means \"consequently/as a result\"."},
+        {"q": "What does \"entre-temps\" mean?", "options": ["Afterwards", "Beforehand", "Meanwhile", "Finally"], "correctIndex": 2, "explanation": "Entre-temps means \"meanwhile/in the meantime\"."},
+        {"q": "When narrating, what should you do at a connector like \"ensuite\"?", "options": ["Speed up", "Give it a slight pause/beat as a verbal signpost", "Skip it", "Whisper it"], "correctIndex": 1, "explanation": "Connectors act as signposts in spoken narration and benefit from a small pause for clarity."},
+        {"q": "What is \"un témoin\"?", "options": ["A suspect", "A witness", "A judge", "A victim"], "correctIndex": 1, "explanation": "Un témoin means \"a witness\"."},
+        {"q": "Which pair correctly orders a three-part narration?", "options": ["enfin, d'abord, ensuite", "d'abord, ensuite, enfin", "ensuite, enfin, d'abord", "Order never matters"], "correctIndex": 1, "explanation": "D'abord (first), ensuite (then), enfin (finally) is the natural sequencing order."}
+      ]
+    },
+    {
+      "id": "u22", "order": 22, "level": "B1", "resourceTier": "A2B1",
+      "title": "Debate and argumentation",
+      "grammar": [
+        {"title": "Comparatives of equality and expressing nuance", "explanation": "Aussi...que (as...as) expresses equality; de plus en plus (more and more) and de moins en moins (less and less) express trends. These are common in opinion/debate writing.", "examples": [{"fr": "Ce problème est aussi important que le changement climatique.", "en": "This problem is as important as climate change."}, {"fr": "De plus en plus de gens travaillent à distance.", "en": "More and more people work remotely."}]},
+        {"title": "Subjunctive vs indicative recap", "explanation": "Use the indicative (present/futur/passé composé) after verbs of knowledge/certainty (savoir, être sûr que); use the subjunctive after verbs of doubt, emotion, necessity or desire — a core B1 distinction tested often.", "examples": [{"fr": "Je sais qu'il a raison.", "en": "I know (that) he's right. (indicative — certainty)"}, {"fr": "Je doute qu'il ait raison.", "en": "I doubt (that) he's right. (subjunctive — doubt)"}]}
+      ],
+      "vocab": [
+        {"fr": "être pour / être contre", "en": "to be for / against"}, {"fr": "un inconvénient", "en": "a disadvantage"}, {"fr": "un avantage", "en": "an advantage"},
+        {"fr": "convaincre", "en": "to convince"}, {"fr": "d'une part... d'autre part...", "en": "on one hand... on the other hand..."},
+        {"fr": "en revanche", "en": "on the other hand"}, {"fr": "la culture", "en": "culture"}, {"fr": "une tradition", "en": "a tradition"},
+        {"fr": "un point de vue", "en": "a point of view"}, {"fr": "nuancer", "en": "to add nuance to"}, {"fr": "globalement", "en": "overall/broadly"}
+      ],
+      "pronunciation": {"title": "Sounding persuasive: contrast stress", "tip": "In argumentation, a contrasting word (mais, cependant, en revanche) often gets a touch more emphasis and a brief pause before it, signalling the turn in your argument to the listener.", "examples": [{"fr": "C'est vrai, / mais ça ne suffit pas.", "hint": "small pause and lift before \"mais\""}, {"fr": "D'une part..., / d'autre part...", "hint": "clear separation between the two halves"}]},
+      "quiz": [
+        {"q": "\"Aussi important que\" expresses:", "options": ["Superiority", "Inferiority", "Equality", "A hypothesis"], "correctIndex": 2, "explanation": "Aussi...que expresses equal comparison: \"as...as\"."},
+        {"q": "Which verb phrase requires the indicative, not the subjunctive?", "options": ["douter que", "être sûr que", "avoir peur que", "il faut que"], "correctIndex": 1, "explanation": "Être sûr que expresses certainty and takes the indicative."},
+        {"q": "\"Je doute qu'il ait raison\" — why \"ait\" instead of \"a\"?", "options": ["Spelling mistake", "Douter expresses doubt, triggering the subjunctive", "Avoir is always irregular here", "Both forms are interchangeable"], "correctIndex": 1, "explanation": "Douter que triggers the subjunctive (ait, from avoir), expressing doubt rather than certainty."},
+        {"q": "What does \"d'une part... d'autre part...\" introduce?", "options": ["A single strong opinion", "Two contrasting sides of an argument", "A chronological sequence", "A conclusion"], "correctIndex": 1, "explanation": "D'une part...d'autre part... presents two sides/aspects of an argument."},
+        {"q": "What does \"convaincre\" mean?", "options": ["To doubt", "To convince", "To ignore", "To refuse"], "correctIndex": 1, "explanation": "Convaincre means \"to convince\"."},
+        {"q": "\"De plus en plus\" means:", "options": ["Less and less", "More and more", "Rarely", "Occasionally"], "correctIndex": 1, "explanation": "De plus en plus means \"more and more\", describing an increasing trend."},
+        {"q": "In persuasive speech, a contrast word like \"mais\" often gets:", "options": ["No special treatment", "A slight pause and emphasis before it", "Complete silence", "A much quieter tone"], "correctIndex": 1, "explanation": "A brief pause and lift before a contrast connector signals the argumentative turn to the listener."},
+        {"q": "What is \"un inconvénient\"?", "options": ["An advantage", "A disadvantage", "A tradition", "A point of view"], "correctIndex": 1, "explanation": "Un inconvénient means \"a disadvantage/drawback\"."}
+      ]
+    },
+    {
+      "id": "u23", "order": 23, "level": "B1 exam prep", "resourceTier": "examPrep",
+      "title": "DELF A2 full review and mock exam",
+      "grammar": [
+        {"title": "A2 grammar recap", "explanation": "Before the A2 checkpoint, make sure these are solid: être/avoir/aller/faire present, -er/-ir/-re regular verbs, passé composé (avoir and être), futur proche, possessives, object pronouns le/la/les, comparatives.", "examples": [{"fr": "Nous sommes allés au marché et nous avons acheté du pain.", "en": "We went to the market and bought bread."}, {"fr": "Je vais appeler mon frère, il est plus jeune que moi.", "en": "I'm going to call my brother, he's younger than me."}]},
+        {"title": "Exam technique: reading/listening comprehension", "explanation": "Skim the whole text/listen once for the general idea before hunting for details. Underline/note question keywords first, then search specifically for matching information rather than re-reading everything linearly.", "examples": [{"fr": "Question : Où va-t-elle ? → cherchez un lieu dans le texte.", "en": "Question: Where is she going? → scan the text specifically for a place."}]}
+      ],
+      "vocab": [
+        {"fr": "une consigne", "en": "an instruction (exam)"}, {"fr": "un extrait", "en": "an excerpt"}, {"fr": "cocher", "en": "to tick/check a box"},
+        {"fr": "vrai ou faux", "en": "true or false"}, {"fr": "justifier", "en": "to justify/support with evidence"}, {"fr": "le temps imparti", "en": "the allotted time"},
+        {"fr": "relire", "en": "to re-read"}, {"fr": "souligner", "en": "to underline"}, {"fr": "une note", "en": "a grade/mark"},
+        {"fr": "le barème", "en": "the grading scale"}, {"fr": "se concentrer", "en": "to concentrate"}, {"fr": "gérer son temps", "en": "to manage one's time"}
+      ],
+      "pronunciation": {"title": "Review: everything so far", "tip": "Record yourself reading a paragraph that mixes passé composé, futur proche and comparatives, then listen back for liaisons you missed and nasal vowels that sounded too English.", "examples": [{"fr": "Nous sommes allés au marché et nous avons acheté du pain.", "hint": "check liaison on \"sommes allés\", nasal \"pain\""}, {"fr": "Il est plus jeune que moi.", "hint": "check the open vs closed vowel in \"jeune\""}]},
+      "quiz": [
+        {"q": "Before answering comprehension questions, you should first:", "options": ["Answer from memory without reading", "Skim/listen once for the general idea", "Translate every single word", "Write your answers before reading the text"], "correctIndex": 1, "explanation": "Getting the general idea first makes it much easier to locate specific details afterward."},
+        {"q": "Which verb combination is correctly conjugated in the passé composé?", "options": ["Nous sommes allé au marché", "Nous sommes allés au marché", "Nous avons allés au marché", "Nous avons allé au marché"], "correctIndex": 1, "explanation": "Aller takes être, and the participle agrees with the plural subject nous: allés."},
+        {"q": "What does \"cocher\" mean in an exam context?", "options": ["To write an essay", "To tick/check a box", "To listen again", "To submit the exam"], "correctIndex": 1, "explanation": "Cocher means \"to tick/check a box\", common in multiple-choice exam instructions."},
+        {"q": "\"Il est plus jeune que moi\" uses which structure?", "options": ["Superlative", "Comparative of superiority", "Comparative of equality", "Subjunctive"], "correctIndex": 1, "explanation": "Plus + adjective + que is the comparative of superiority (\"more...than\")."},
+        {"q": "What does \"gérer son temps\" mean?", "options": ["To waste time", "To manage one's time", "To finish early always", "To ignore the clock"], "correctIndex": 1, "explanation": "Gérer son temps means \"to manage one's time\", an important exam skill."},
+        {"q": "What is \"le barème\"?", "options": ["The exam room", "The grading scale", "The question list", "The answer key"], "correctIndex": 1, "explanation": "Le barème is the grading scale showing how points are distributed."},
+        {"q": "Why re-listen/re-read after a first general pass?", "options": ["It's required by the format", "To search specifically for details matching the questions", "To change your initial answers randomly", "There's no benefit"], "correctIndex": 1, "explanation": "A second, targeted pass helps you find specific details once you already know the general context."},
+        {"q": "What does \"justifier\" mean in an exam context?", "options": ["To guess", "To support an answer with evidence from the text", "To skip a question", "To translate a question"], "correctIndex": 1, "explanation": "Justifier means to back up an answer with evidence, often required for true/false questions."}
+      ]
+    },
+    {
+      "id": "u24", "order": 24, "level": "B1 exam prep", "resourceTier": "examPrep",
+      "title": "DELF B1: reading & listening strategy",
+      "grammar": [
+        {"title": "B1 grammar recap: tenses in combination", "explanation": "DELF B1 texts regularly mix imparfait, passé composé, futur simple and conditionnel in the same passage — practise identifying which tense is used and why (background vs event vs prediction vs hypothesis) rather than translating word by word.", "examples": [{"fr": "Quand j'étais jeune, je ne savais pas que je deviendrais professeur.", "en": "When I was young, I didn't know I would become a teacher."}, {"fr": "S'il avait plus de budget, le projet réussirait.", "en": "If it had more budget, the project would succeed."}]},
+        {"title": "Exam technique: longer listening passages", "explanation": "B1 listening often has two listens with increasing time pressure. On the first listen, note the topic, speakers and overall tone; on the second, fill in specific details (numbers, names, opinions) you missed.", "examples": [{"fr": "Première écoute : sujet, locuteurs, ton général.", "en": "First listen: topic, speakers, overall tone."}]}
+      ],
+      "vocab": [
+        {"fr": "un dialogue", "en": "a dialogue"}, {"fr": "un monologue", "en": "a monologue"}, {"fr": "le ton", "en": "the tone"},
+        {"fr": "l'intonation", "en": "intonation"}, {"fr": "repérer", "en": "to spot/locate"}, {"fr": "une consigne implicite", "en": "an implicit instruction"},
+        {"fr": "déduire", "en": "to deduce/infer"}, {"fr": "le contexte", "en": "the context"}, {"fr": "un indice", "en": "a clue"},
+        {"fr": "approfondir", "en": "to go into more depth"}, {"fr": "synthétiser", "en": "to synthesise/summarise"}, {"fr": "la nuance", "en": "nuance"}
+      ],
+      "pronunciation": {"title": "Tracking tense shifts by ear", "tip": "In fast native speech, imparfait/conditionnel and futur simple can be told apart partly by overall sentence melody and context words (quand, si, probablement) — train your ear on these cues rather than isolated verb endings.", "examples": [{"fr": "Quand j'étais jeune...", "hint": "\"quand\" + imparfait often signals background/habit"}, {"fr": "S'il avait... le projet réussirait.", "hint": "\"si\" + imparfait cues a conditionnel result coming"}]},
+      "quiz": [
+        {"q": "\"Je ne savais pas que je deviendrais professeur\" mixes which two tenses?", "options": ["Présent and futur simple", "Imparfait and conditionnel", "Passé composé and subjonctif", "Futur simple and subjonctif"], "correctIndex": 1, "explanation": "Savais is imparfait (background state); deviendrais is conditionnel (what would happen from that past viewpoint)."},
+        {"q": "On a two-listen B1 exam section, the first listen is mainly for:", "options": ["Catching every exact word", "Topic, speakers and overall tone", "Writing your final answers immediately", "Ignoring and waiting for the second listen"], "correctIndex": 1, "explanation": "The first listen should establish the big picture before hunting for details on the second pass."},
+        {"q": "What does \"déduire\" mean?", "options": ["To state directly", "To deduce/infer", "To translate", "To repeat"], "correctIndex": 1, "explanation": "Déduire means \"to deduce/infer\", a key skill for implicit exam questions."},
+        {"q": "What is \"une consigne implicite\"?", "options": ["An instruction stated directly", "An instruction you must infer from context", "A grammar rule", "A vocabulary list"], "correctIndex": 1, "explanation": "An implicit instruction/requirement isn't stated outright and must be inferred from context."},
+        {"q": "\"S'il avait plus de budget, le projet réussirait\" is which type of si-clause?", "options": ["Type 1 (realistic future)", "Type 2 (hypothetical present)", "Not a si-clause", "Past narration"], "correctIndex": 1, "explanation": "Si + imparfait + conditionnel is the hypothetical/unreal present condition pattern."},
+        {"q": "What does \"repérer\" mean?", "options": ["To forget", "To spot/locate", "To erase", "To guess randomly"], "correctIndex": 1, "explanation": "Repérer means \"to spot/locate\", useful when scanning for specific information."},
+        {"q": "What does \"synthétiser\" mean?", "options": ["To complicate", "To summarise/synthesise", "To translate literally", "To ignore details"], "correctIndex": 1, "explanation": "Synthétiser means \"to summarise/synthesise\" information."},
+        {"q": "Training your ear on words like \"quand\" and \"si\" helps you:", "options": ["Guess vocabulary meaning only", "Anticipate which tense/structure is likely coming next", "Avoid listening to the whole sentence", "Skip grammar entirely"], "correctIndex": 1, "explanation": "These cue words often signal a following tense pattern (quand+imparfait, si+imparfait/conditionnel, etc.)."}
+      ]
+    },
+    {
+      "id": "u25", "order": 25, "level": "B1 exam prep", "resourceTier": "examPrep",
+      "title": "DELF B1: writing & speaking strategy",
+      "grammar": [
+        {"title": "Structuring a B1 opinion essay", "explanation": "A typical DELF B1 written production: intro (state the topic and your position), 2-3 body paragraphs each with one argument + an example, and a conclusion that restates your opinion. Use connectors (d'abord, de plus, cependant, en conclusion) to structure it clearly.", "examples": [{"fr": "À mon avis, le télétravail présente plus d'avantages que d'inconvénients.", "en": "In my opinion, remote work has more advantages than disadvantages."}, {"fr": "En conclusion, je pense que...", "en": "In conclusion, I think that..."}]},
+        {"title": "Structuring a B1 spoken response", "explanation": "For the spoken monologue/debate section: state your position clearly and early, give 2 solid reasons with examples, acknowledge a counter-argument, then restate your position. Examiners reward structure and range of tenses, not just correctness.", "examples": [{"fr": "Je suis plutôt favorable à cette idée, pour deux raisons.", "en": "I'm rather in favour of this idea, for two reasons."}, {"fr": "Certains diraient que..., mais je pense que...", "en": "Some would say that..., but I think that..."}]}
+      ],
+      "vocab": [
+        {"fr": "un plan", "en": "an outline/structure"}, {"fr": "une introduction", "en": "an introduction"}, {"fr": "une conclusion", "en": "a conclusion"},
+        {"fr": "développer une idée", "en": "to develop an idea"}, {"fr": "illustrer", "en": "to illustrate"}, {"fr": "un exemple concret", "en": "a concrete example"},
+        {"fr": "un jury", "en": "an examining panel"}, {"fr": "l'aisance", "en": "fluency/ease"}, {"fr": "hésiter", "en": "to hesitate"},
+        {"fr": "reformuler", "en": "to rephrase"}, {"fr": "le registre de langue", "en": "the language register"}, {"fr": "soigner son discours", "en": "to take care with one's speech"}
+      ],
+      "pronunciation": {"title": "Fluency over perfection", "tip": "Examiners reward smooth delivery with occasional self-correction over hesitant, overly careful speech. If you make a mistake, rephrase briefly (\"je veux dire...\") and keep going rather than stopping.", "examples": [{"fr": "Je pense... je veux dire, à mon avis...", "hint": "a natural self-correction, not a full stop"}, {"fr": "C'est, enfin, assez compliqué.", "hint": "a filler (enfin) buys thinking time without breaking flow"}]},
+      "quiz": [
+        {"q": "A B1 opinion essay should typically include:", "options": ["Only a list of vocabulary", "Intro, body paragraphs with arguments/examples, and a conclusion", "Just a conclusion", "A single long sentence"], "correctIndex": 1, "explanation": "A clear structure with intro, developed body, and conclusion is expected at B1."},
+        {"q": "In the spoken section, examiners mainly reward:", "options": ["Perfect grammar only", "Structure and range of tenses, not just correctness", "Speaking as fast as possible", "Avoiding any opinion"], "correctIndex": 1, "explanation": "Structure, coherence and range of language are valued alongside accuracy."},
+        {"q": "What does \"reformuler\" mean?", "options": ["To stop talking", "To rephrase", "To translate", "To memorise"], "correctIndex": 1, "explanation": "Reformuler means \"to rephrase\", a useful recovery strategy when you make a mistake."},
+        {"q": "\"Certains diraient que..., mais je pense que...\" demonstrates:", "options": ["Ignoring other viewpoints", "Acknowledging a counter-argument before restating your position", "A grammar error", "A conclusion only"], "correctIndex": 1, "explanation": "This structure shows awareness of other viewpoints while maintaining your own argument — valued at B1."},
+        {"q": "What is \"le registre de langue\"?", "options": ["The grammar tense used", "The level of formality in language", "The vocabulary topic", "The speaking speed"], "correctIndex": 1, "explanation": "Le registre de langue refers to the level of formality (formal, informal, familiar) in speech or writing."},
+        {"q": "If you make a mistake while speaking, the best strategy is:", "options": ["Stop completely and restart from the beginning", "Briefly rephrase and continue", "Switch to English", "Say nothing further"], "correctIndex": 1, "explanation": "A brief self-correction keeps the flow going, which examiners generally reward over complete stops."},
+        {"q": "What does \"un exemple concret\" mean?", "options": ["A vague idea", "A concrete/specific example", "A grammar rule", "A counter-argument"], "correctIndex": 1, "explanation": "Un exemple concret means \"a concrete/specific example\", which strengthens an argument."},
+        {"q": "What does \"l'aisance\" mean in a speaking context?", "options": ["Hesitation", "Fluency/ease", "Accent", "Vocabulary size"], "correctIndex": 1, "explanation": "L'aisance refers to fluency/ease of speech."}
+      ]
+    },
+    {
+      "id": "u26", "order": 26, "level": "B1 exam prep", "resourceTier": "examPrep",
+      "title": "Final review and full mock exam",
+      "grammar": [
+        {"title": "Full grammar recap: A1 through B1", "explanation": "Review, in order: être/avoir/aller/faire, regular -er/-ir/-re verbs, negation, possessives, passé composé (avoir & être), futur proche, imparfait, futur simple, conditionnel, relative pronouns (qui/que/où/dont), object pronouns (le/la/les/lui/leur/en/y), and the subjunctive after common triggers.", "examples": [{"fr": "Si j'avais su que tu venais, j'aurais préparé un repas.", "en": "If I had known you were coming, I would have prepared a meal."}, {"fr": "Il faut que nous finissions avant qu'il ne parte.", "en": "We need to finish before he leaves."}]},
+        {"title": "Final exam-day strategy", "explanation": "Across all four DELF skills: read every instruction twice, budget your time per section before starting, answer every question (an educated guess beats a blank), and leave a few minutes at the end to re-check grammar agreement (gender, number, tense) rather than content.", "examples": [{"fr": "Vérifiez les accords (genre, nombre) à la fin.", "en": "Check agreement (gender, number) at the end."}]}
+      ],
+      "vocab": [
+        {"fr": "le bilan", "en": "the summary/assessment"}, {"fr": "les points forts", "en": "strengths"}, {"fr": "les points faibles", "en": "weaknesses"},
+        {"fr": "s'améliorer", "en": "to improve"}, {"fr": "maîtriser", "en": "to master"}, {"fr": "consolider", "en": "to consolidate"},
+        {"fr": "une compétence acquise", "en": "an acquired skill"}, {"fr": "poursuivre", "en": "to continue/pursue"}, {"fr": "un objectif atteint", "en": "an achieved goal"},
+        {"fr": "la prochaine étape", "en": "the next step"}, {"fr": "féliciter", "en": "to congratulate"}, {"fr": "persévérer", "en": "to persevere"}
+      ],
+      "pronunciation": {"title": "Final pronunciation self-check", "tip": "Record a two-minute monologue (e.g. describing your year of learning French) and check it against every pronunciation focus from this plan: nasal vowels, R, u vs ou, liaison/enchaînement, ch, rhythm, and intonation.", "examples": [{"fr": "Cette année, j'ai beaucoup appris.", "hint": "check liaison on \"j'ai\" and the nasal \"an\" in \"année\""}, {"fr": "Je suis fier / fière de mes progrès.", "hint": "check the French r and the vowel in \"fier/fière\""}]},
+      "quiz": [
+        {"q": "\"Si j'avais su que tu venais, j'aurais préparé un repas\" uses which structure?", "options": ["Si + présent + futur", "Si + imparfait + conditionnel présent", "Si + plus-que-parfait + conditionnel passé", "Si + subjonctif"], "correctIndex": 2, "explanation": "This is the third conditional pattern: si + plus-que-parfait, conditionnel passé — for an unreal past condition."},
+        {"q": "\"Il faut que nous finissions\" uses which mood, and why?", "options": ["Indicative, because it's a fact", "Subjunctive, because il faut que expresses necessity", "Conditionnel, because it's polite", "Imperative, because it's a command"], "correctIndex": 1, "explanation": "Il faut que always triggers the subjunctive."},
+        {"q": "A good final exam-day strategy includes:", "options": ["Leaving questions blank if unsure", "Budgeting time per section and answering every question", "Reading instructions only once quickly", "Ignoring grammar agreement entirely"], "correctIndex": 1, "explanation": "Time budgeting and attempting every question (educated guesses included) improve overall results."},
+        {"q": "What should you re-check in the last few minutes of a written exam?", "options": ["The exam instructions", "Grammar agreement (gender, number, tense)", "Your handwriting style only", "Nothing, time is better spent elsewhere"], "correctIndex": 1, "explanation": "A final pass focused on agreement errors (often the easiest to catch and fix) can meaningfully raise your score."},
+        {"q": "What does \"consolider\" mean?", "options": ["To forget", "To strengthen/consolidate", "To test", "To translate"], "correctIndex": 1, "explanation": "Consolider means \"to strengthen/consolidate\" existing knowledge."},
+        {"q": "What does \"persévérer\" mean?", "options": ["To give up", "To persevere", "To celebrate", "To forget"], "correctIndex": 1, "explanation": "Persévérer means \"to persevere\", fitting advice at the end of a long learning plan."},
+        {"q": "Which object pronoun pair replaces \"à quelqu'un\" (indirect object, people)?", "options": ["le/la", "lui/leur", "en/y", "qui/que"], "correctIndex": 1, "explanation": "Lui (singular) and leur (plural) are the indirect object pronouns for people."},
+        {"q": "After finishing this plan, a realistic next step is to:", "options": ["Stop practising French entirely", "Take an official DELF A2/B1 exam and keep immersing yourself in French media", "Only use the app, never speak to anyone", "Start over from Unit 1 immediately"], "correctIndex": 1, "explanation": "Sitting an official exam and continuing regular exposure (listening, reading, speaking) consolidates the level reached."}
+      ]
+    }
+  ]
+}

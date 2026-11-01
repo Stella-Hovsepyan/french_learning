@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>French A0 → A2/B1 — One Year Plan</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <h1>French A0 → A2/B1</h1>
+    <nav class="mode-nav" aria-label="Section">
+      <button class="nav-btn is-active" data-mode="today" type="button">Today</button>
+      <button class="nav-btn" data-mode="plan" type="button">Full Plan</button>
+      <button class="nav-btn" data-mode="flashcards" type="button">Flashcards</button>
+      <button class="nav-btn" data-mode="quiz" type="button">Unit Exam</button>
+      <button class="nav-btn" data-mode="resources" type="button">Resources</button>
+      <button class="nav-btn" data-mode="progress" type="button">Progress</button>
+    </nav>
+  </div>
+</header>
+
+<main id="app">
+
+  <!-- TODAY MODE -->
+  <section id="mode-today" class="mode-panel is-active">
+    <div class="today-top">
+      <div class="streak-box">
+        <span class="streak-number" id="streak-number">0</span>
+        <span class="streak-label">day streak</span>
+      </div>
+      <div class="level-box">
+        <p class="label">Current level</p>
+        <p class="level-value" id="level-value">A0</p>
+      </div>
+      <div class="daycount-box">
+        <p class="label">Day</p>
+        <p class="level-value" id="daycount-value">1 / 364</p>
+      </div>
+    </div>
+
+    <div id="today-card" class="today-card"></div>
+
+    <div class="today-actions">
+      <button id="jump-prev-day" type="button">← Previous day</button>
+      <button id="today-complete" type="button" class="primary-btn">Mark today's tasks complete</button>
+      <button id="jump-next-day" type="button">Next day →</button>
+    </div>
+    <p class="hint-text">You don't need to go in strict calendar order — jump to any day, work at your own pace, and mark days complete as you finish them. Aiming for roughly one day of tasks per day gets you through the whole plan in a year.</p>
+  </section>
+
+  <!-- FULL PLAN MODE -->
+  <section id="mode-plan" class="mode-panel">
+    <p class="section-intro">All 26 units across the year. Click a unit to jump Today's view to its first unfinished day, or open its exam directly once you've reached day 14.</p>
+    <div id="plan-list" class="unit-list"></div>
+  </section>
+
+  <!-- FLASHCARDS MODE -->
+  <section id="mode-flashcards" class="mode-panel">
+    <div class="unit-select-row">
+      <label for="flashcard-unit-select">Vocabulary from:</label>
+      <select id="flashcard-unit-select"></select>
+    </div>
+    <div class="flashcard-wrap">
+      <p class="flashcard-progress" id="flashcard-progress"></p>
+      <div class="flashcard" id="flashcard" tabindex="0" role="button" aria-label="Flip card">
+        <div class="flashcard-inner" id="flashcard-inner">
+          <div class="flashcard-face flashcard-front">
+            <span class="flashcard-label">Français</span>
+            <p id="flashcard-front-text"></p>
+            <span class="flashcard-hint">Click or press space to flip</span>
+          </div>
+          <div class="flashcard-face flashcard-back">
+            <span class="flashcard-label">English</span>
+            <p id="flashcard-back-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="flashcard-controls">
+        <button id="flashcard-shuffle" type="button">Shuffle</button>
+        <button id="flashcard-prev" type="button">← Previous</button>
+        <button id="flashcard-next" type="button">Next →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUIZ / EXAM MODE -->
+  <section id="mode-quiz" class="mode-panel">
+    <div class="unit-select-row" id="quiz-unit-select-row">
+      <label for="quiz-unit-select">Exam for:</label>
+      <select id="quiz-unit-select"></select>
+      <button id="quiz-start" type="button" class="primary-btn">Start exam</button>
+    </div>
+
+    <div class="quiz-wrap">
+      <div id="quiz-active" hidden>
+        <p class="quiz-progress" id="quiz-progress"></p>
+        <div class="quiz-nav-dots" id="quiz-nav-dots"></div>
+        <h2 id="quiz-question"></h2>
+        <div id="quiz-options" class="quiz-options"></div>
+        <p id="quiz-feedback" class="quiz-feedback" hidden></p>
+        <div class="quiz-nav-buttons">
+          <button id="quiz-prev" type="button">← Previous</button>
+          <button id="quiz-next" type="button" hidden>Next question →</button>
+        </div>
+      </div>
+      <div id="quiz-results" hidden>
+        <h2>Exam results</h2>
+        <p id="quiz-score-text" class="quiz-score"></p>
+        <div id="quiz-mistake-review"></div>
+        <button id="quiz-restart" type="button">Retake this exam</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESOURCES MODE -->
+  <section id="mode-resources" class="mode-panel">
+    <p class="section-intro">Free resources used throughout the plan, plus everything matched to your current level tier. All links are external and open in a new tab.</p>
+    <div id="resources-current-tier"></div>
+    <div id="resources-always-on"></div>
+  </section>
+
+  <!-- PROGRESS MODE -->
+  <section id="mode-progress" class="mode-panel">
+    <h2>Your progress</h2>
+    <div id="progress-overview" class="progress-overview"></div>
+    <h3>Exam history</h3>
+    <div id="exam-history"></div>
+    <div class="danger-zone">
+      <button id="reset-progress" type="button">Reset all progress</button>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Self-paced French plan — A0 to A2/B1 in a year. Progress is saved only in this browser (localStorage).</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
