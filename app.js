@@ -32,8 +32,46 @@ async function init() {
   setupQuiz();
   setupResources();
   setupProgress();
+  setupPronunciation();
 
   renderToday();
+}
+
+// ---------- Pronunciation (text-to-speech) ----------
+
+let frenchVoice = null;
+
+function setupPronunciation() {
+  if (!('speechSynthesis' in window)) return;
+
+  const pickVoice = () => {
+    const voices = speechSynthesis.getVoices();
+    frenchVoice = voices.find(v => v.lang === 'fr-FR') || voices.find(v => v.lang.startsWith('fr')) || null;
+  };
+  pickVoice();
+  speechSynthesis.addEventListener('voiceschanged', pickVoice);
+
+  // Delegated click handler so this works for every play button, including
+  // ones in dynamically-rendered vocab grids. Capture phase so it runs before
+  // the flashcard's own click-to-flip handler (e.g. the play button sits
+  // inside the flippable card).
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('.play-btn');
+    if (!btn) return;
+    e.preventDefault();
+    e.stopPropagation();
+    speakFrench(btn.dataset.fr);
+  }, true);
+}
+
+function speakFrench(text) {
+  if (!text || !('speechSynthesis' in window)) return;
+  speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = 'fr-FR';
+  if (frenchVoice) utterance.voice = frenchVoice;
+  utterance.rate = 0.9;
+  speechSynthesis.speak(utterance);
 }
 
 // ---------- storage & progress helpers ----------
@@ -230,7 +268,13 @@ function renderPronunciationBlock(p) {
 function renderVocabGrid(vocab) {
   let html = `<div class="vocab-grid">`;
   vocab.forEach(v => {
-    html += `<div class="vocab-item"><span class="vocab-fr">${escapeHtml(v.fr)}</span><span class="vocab-en">${escapeHtml(v.en)}</span></div>`;
+    html += `
+      <div class="vocab-item">
+        <span class="vocab-item-text"><span class="vocab-fr">${escapeHtml(v.fr)}</span><span class="vocab-en">${escapeHtml(v.en)}</span></span>
+        <button type="button" class="play-btn" data-fr="${escapeAttr(v.fr)}" aria-label="Pronounce ${escapeAttr(v.fr)}" title="Pronounce this word">
+          <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="currentColor" d="M16.5 12c0-1.4-.7-2.6-1.8-3.3l.9-1.5c1.6 1 2.6 2.8 2.6 4.8s-1 3.8-2.6 4.8l-.9-1.5c1.1-.7 1.8-1.9 1.8-3.3z"/></svg>
+        </button>
+      </div>`;
   });
   html += `</div>`;
   return html;
@@ -332,6 +376,7 @@ function renderFlashcard() {
   const v = flashVocab[flashOrder[flashIndex]];
   document.getElementById('flashcard-front-text').textContent = v.fr;
   document.getElementById('flashcard-back-text').textContent = v.en;
+  document.getElementById('flashcard-play').dataset.fr = v.fr;
   document.getElementById('flashcard-progress').textContent =
     `Card ${flashIndex + 1} of ${flashOrder.length}`;
 }
